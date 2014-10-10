@@ -1,0 +1,83 @@
+# Logfile created on 2014-10-06 12:25:39 +0300 by logger.rb/44203
+D, [2014-10-06T12:39:11.033185 #17120] DEBUG -- :   [1m[36m (170.4ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+D, [2014-10-06T12:39:11.325852 #17120] DEBUG -- :   [1m[35m (289.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+D, [2014-10-06T12:39:11.329983 #17120] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+I, [2014-10-06T12:39:11.337066 #17120]  INFO -- : Migrating to Schema (1)
+D, [2014-10-06T12:39:11.484600 #17120] DEBUG -- :   [1m[35m (140.3ms)[0m  CREATE TABLE `sensors` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `featured` tinyint(1)) ENGINE=InnoDB
+D, [2014-10-06T12:39:11.493936 #17120] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-10-06T12:39:11.516960 #17120] DEBUG -- :   [1m[35mSQL (1.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('1')
+D, [2014-10-06T12:39:11.593440 #17120] DEBUG -- :   [1m[36m (75.7ms)[0m  [1mCOMMIT[0m
+D, [2014-10-07T10:45:50.749108 #8530] DEBUG -- :   [1m[36mSensor Load (18.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-10-07T10:46:04.222895 #8530] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 1 LIMIT 1
+D, [2014-10-07T10:50:00.181906 #8825] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-10-07T10:51:46.105714 #8825] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`
+D, [2014-10-07T11:02:23.988097 #10031] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-10-07T11:02:27.559797 #10031] DEBUG -- :   [1m[35m (119.3ms)[0m  BEGIN
+D, [2014-10-07T11:02:27.715806 #10031] DEBUG -- :   [1m[36mSQL (116.2ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New York')[0m
+D, [2014-10-07T11:02:27.790694 #10031] DEBUG -- :   [1m[35m (74.0ms)[0m  COMMIT
+D, [2014-10-07T11:02:32.206793 #10031] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-10-07T11:02:45.542645 #10031] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-10-07T11:02:45.543648 #10031] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Denver')[0m
+D, [2014-10-07T11:02:45.593691 #10031] DEBUG -- :   [1m[35m (49.7ms)[0m  COMMIT
+D, [2014-10-07T11:03:05.588107 #10031] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-10-07T11:03:05.589160 #10031] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Seattle')
+D, [2014-10-07T11:03:05.645305 #10031] DEBUG -- :   [1m[36m (55.8ms)[0m  [1mCOMMIT[0m
+D, [2014-10-07T11:03:09.729835 #10031] DEBUG -- :   [1m[35mSensor Load (1.6ms)[0m  SELECT `sensors`.* FROM `sensors`
+D, [2014-10-07T11:04:35.425729 #10031] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-10-07T11:04:44.277377 #10210] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:05:12.182804 #10282] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC, `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:05:14.583457 #10282] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC, `sensors`.`featured` DESC
+D, [2014-10-07T11:05:30.747877 #10315] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC, `sensors`.`id` ASC[0m
+D, [2014-10-07T11:05:46.588465 #10315] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC, `sensors`.`id` ASC
+D, [2014-10-07T11:05:52.316195 #10342] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC, `sensors`.`id` DESC[0m
+D, [2014-10-07T11:07:26.586704 #10495] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:07:27.786833 #10495] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-07T11:10:15.288266 #10840] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:10:21.074204 #10840] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-07T11:10:21.953311 #10840] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:10:22.641381 #10840] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-07T11:10:23.341526 #10840] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:10:24.107573 #10840] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-07T11:10:24.772360 #10840] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:10:25.470686 #10840] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-07T11:10:26.130134 #10840] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:26:21.173615 #10840] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-07T11:26:43.994165 #10840] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:27:06.268903 #11960] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:27:07.291940 #11960] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-07T11:27:08.230379 #11960] DEBUG -- :   [1m[36mSensor Load (2.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:27:09.163761 #11960] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-07T11:27:10.151468 #11960] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:28:25.333212 #11960] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-07T11:28:28.581445 #11960] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:29:37.572594 #12189] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:29:38.663614 #12189] DEBUG -- :   [1m[35mSensor Load (2.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-07T11:29:39.377805 #12189] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-07T11:29:40.073365 #12189] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-07T15:00:44.929125 #28100] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-08T10:07:51.243492 #5608] DEBUG -- :   [1m[36mSensor Load (77.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-08T10:08:06.171184 #5608] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-08T10:08:07.586121 #5608] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-09T11:20:26.667234 #3615] DEBUG -- :   [1m[36mSensor Load (106.1ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T17:39:03.217078 #3627] DEBUG -- :   [1m[36mSensor Load (374.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T17:39:06.124367 #3627] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-10T17:39:18.196972 #3627] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T17:45:53.509299 #13328] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T17:45:56.502758 #13328] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-10T17:46:06.469505 #13328] DEBUG -- :   [1m[36mSensor Load (1.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T17:50:08.187574 #13778] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T17:50:14.374134 #13778] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-10T17:54:24.212021 #13778] DEBUG -- :   [1m[36mSensor Load (0.1ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T17:54:44.558952 #13778] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-10T17:55:03.618613 #13778] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T17:55:31.074837 #13778] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-10T17:55:59.712198 #13778] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T17:56:18.763064 #13778] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-10T17:56:31.453797 #13778] DEBUG -- :   [1m[36mSensor Load (5.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T17:58:18.967659 #13778] DEBUG -- :   [1m[35mSensor Load (0.1ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-10T17:58:26.575855 #13778] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T18:00:30.688269 #13778] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-10T18:05:45.479169 #15181] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T18:05:49.791599 #15181] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-10-10T18:06:25.153632 #15181] DEBUG -- :   [1m[36mSensor Load (0.1ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-10-10T18:06:38.620960 #15181] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
