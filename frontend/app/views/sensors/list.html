@@ -1,0 +1,22 @@
+<h1>
+  Sensors List 
+  <a href="#/sensors/new" class="btn btn-primary pull-right">Add Sensor</a>
+</h1>
+<table class="table table-hover">
+  <tr>
+    <th>Sensor</th>
+    <th>Temp</th>
+    <th>Featured</th>
+  </tr>
+  <tr ng-repeat="sensor in sensors" ng-class="{info: sensor.featured}">
+    <td>
+      <a href="#/sensors/{{sensor.id}}">{{sensor.name}}</a>
+    </td>
+    <td>
+      {{sensor.temp}}
+    </td>
+    <td>
+      <input type="checkbox" name="featured" ng-checked="{{sensor.featured}}" ng-model="sensor.featured" ng-change="update($index)">
+    </td>
+  </tr>
+</table>

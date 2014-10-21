@@ -10,15 +10,22 @@ var $sensorsApp = angular.module('sensorsApp', [
 $sensorsApp.config(['$routeProvider', function($routeProvider) {
   $routeProvider.
     when('/sensors', {
-      templateUrl: 'views/sensors.html',
-      controller:  'SensorsCtrl'
+      templateUrl: 'views/sensors/list.html',
+      controller:  'SensorsCtrl',
+      animation: 'slide'
     }).
     when('/sensors/:sensorId', {
-      templateUrl: 'views/sensors.html',
-      controller:  'SensorUpdateCtrl'
+      templateUrl: 'views/sensors/sensor.html',
+      controller:  'SensorCtrl',
+      animation: 'slide'
+    }).
+    when('/sensors/:sensorId/update', {
+      templateUrl: 'views/sensors/sensor.html',
+      controller:  'SensorCtrl',
+      animation: 'slide'
     }).
     otherwise(function () {
-      console.log("OLOLOLO");
+      ''
     });
   }]);
 
