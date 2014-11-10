@@ -3,29 +3,32 @@
 // Declare app level module which depends on views, and components
 var $sensorsApp = angular.module('sensorsApp', [
   'ngRoute',
+  'ngResource',
+  'sensorsAppResources',
   'sensorsAppSensors',
   'sensorsApp.version'
 ]);
 
 $sensorsApp.config(['$routeProvider', function($routeProvider) {
   $routeProvider.
+    when('/', {
+      templateUrl: 'views/sensors/list.html',
+      controller:  'SensorsCtrl',
+    }).
     when('/sensors', {
       templateUrl: 'views/sensors/list.html',
       controller:  'SensorsCtrl',
-      animation: 'slide'
+    }).
+    when('/sensors/new', {
+      templateUrl: 'views/sensors/new.html',
+      controller:  'CreateSensorCtrl',
     }).
     when('/sensors/:sensorId', {
       templateUrl: 'views/sensors/sensor.html',
       controller:  'SensorCtrl',
-      animation: 'slide'
     }).
-    when('/sensors/:sensorId/update', {
-      templateUrl: 'views/sensors/sensor.html',
-      controller:  'SensorCtrl',
-      animation: 'slide'
-    }).
-    otherwise(function () {
-      ''
+    otherwise({
+      templateUrl: 'views/error_template.html'
     });
   }]);
 

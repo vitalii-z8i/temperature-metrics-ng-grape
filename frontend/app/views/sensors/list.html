@@ -2,21 +2,33 @@
   Sensors List 
   <a href="#/sensors/new" class="btn btn-primary pull-right">Add Sensor</a>
 </h1>
+
 <table class="table table-hover">
+  <tr>
+    <th colspan="4">
+      <span class="pull-right">
+        Getting Data Enabled <input type="checkbox" name="featured" ng-model="working" ng-change="startGettingData()">
+      </span>
+    </th>
+  </tr>
   <tr>
     <th>Sensor</th>
     <th>Temp</th>
     <th>Featured</th>
+    <th>Remove</th>
   </tr>
   <tr ng-repeat="sensor in sensors" ng-class="{info: sensor.featured}">
     <td>
       <a href="#/sensors/{{sensor.id}}">{{sensor.name}}</a>
     </td>
     <td>
-      {{sensor.temp}}
+      <span ng-auto-refresh>{{sensor.temp}}</span>
     </td>
     <td>
-      <input type="checkbox" name="featured" ng-checked="{{sensor.featured}}" ng-model="sensor.featured" ng-change="update($index)">
+      <input type="checkbox" name="featured" ng-checked="{{sensor.featured}}" ng-model="sensor.featured" ng-change="update(sensor)">
+    </td>
+    <td>
+      <button type="button" class="close" ng-click="delete(sensor.id, $index)">×</button>
     </td>
   </tr>
 </table>

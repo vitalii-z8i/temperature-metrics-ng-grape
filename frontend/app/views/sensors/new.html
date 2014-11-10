@@ -1,0 +1,23 @@
+<h1>
+  New Sensor 
+  <a href="#/sensors" class="btn btn-primary pull-right">Back to Sensors</a>
+</h1>
+<div class="well bs-component">
+  <form novalidate, class="simple-form">
+    <div class="form-group">
+      <label for="sensor_name" class="col-lg-2 control-label"> Name: </label>
+      <div class="col-lg-10">
+        <input id="sensor_name" type="text" name="sensor[name]" ng-model="sensor.name">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="sensor_featured" class="col-lg-2 control-label"> Featured:  </label>
+      <div class="col-lg-10">
+        <input id="sensor_featured" type="checkbox" name="sensor[featured]" ng-checked="{{sensor.featured}}" ng-model="sensor.featured">
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-info" ng-click="save(sensor)">Save</button>
+  </form>
+</div>
