@@ -7,8 +7,10 @@ gem 'mysql2'
 gem 'activerecord', require: 'active_record'
 gem 'rake'
 
-group :test do
+group :development, :test do
   gem 'factory_girl'
   gem 'rspec'
   gem 'faker'
+  gem 'rack-test'
+  gem 'database_cleaner'
 end
