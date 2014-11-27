@@ -16,7 +16,6 @@ angular.module('sensorsAppSensors', ['ngRoute']).
       $scope.update = function(sensor, index) {
         Sensor.update({id: sensor.id, sensor: {featured: sensor.featured}}, function() {
           $scope.sensors[index] = sensor;
-
           $scope.clearIntevals();
           $scope.startGettingData();
         });
@@ -25,7 +24,6 @@ angular.module('sensorsAppSensors', ['ngRoute']).
         Sensor.delete({id: sensorId});
         $scope.sensors.splice(index, 1);
       }
-
       $scope.clearIntevals = function() {
         angular.forEach(intervals, function(interval, index){
           $interval.cancel(interval)
@@ -58,7 +56,7 @@ angular.module('sensorsAppSensors', ['ngRoute']).
     }]).
   controller('CreateSensorCtrl', ['$scope', '$routeParams', '$location', 'appConfig', 'Sensor',
     function($scope, $routeParams, $location, $appConfig, Sensor) {
-      $scope.sensor = new Sensor();
+      $scope.sensor = {};
       $scope.save = function(sensor){
         Sensor.save({sensor: {name: sensor.name, featured: sensor.featured}}, function() {
           $location.url('/sensors');

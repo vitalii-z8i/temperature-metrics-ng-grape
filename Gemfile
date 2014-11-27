@@ -13,4 +13,6 @@ group :development, :test do
   gem 'faker'
   gem 'rack-test'
   gem 'database_cleaner'
+  gem 'guard'
+  gem 'guard-rspec'
 end

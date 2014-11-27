@@ -7,7 +7,9 @@ describe('SensorsCtrl', function(){
       $httpBackend,
       queryDeferred,
       SensorsMock,
-      sensorsQueryResponse = [{"id":3,"name":"Seattle","featured":true,"temp":69},{"id":7,"name":"Minnesota","featured":true,"temp":60},{"id":12,"name":"New York","featured":true,"temp":25}];
+      sensorsQueryResponse = [{"id":3,"name":"Seattle","featured":true,"temp":69},
+                              {"id":7,"name":"Minnesota","featured":true,"temp":60},
+                              {"id":12,"name":"New York","featured":true,"temp":25}];
 
   beforeEach(module('sensorsApp'));
 
@@ -32,11 +34,13 @@ describe('SensorCtrl', function(){
       $httpBackend,
       queryDeferred,
       SensorsMock,
-      sensorsQueryResponse = [{"id":3,"name":"Seattle","featured":true,"temp":69},{"id":7,"name":"Minnesota","featured":true,"temp":60},{"id":12,"name":"New York","featured":true,"temp":25}];
+      sensorsQueryResponse = [{"id":3,"name":"Seattle","featured":true,"temp":69},
+                              {"id":7,"name":"Minnesota","featured":true,"temp":60},
+                              {"id":12,"name":"New York","featured":true,"temp":25}];
 
   beforeEach(module('sensorsApp'));
 
-  it('should display sensors list', inject(function($controller, $rootScope) {
+  it('should show selected sensor', inject(function($controller, $rootScope) {
     var scope = $rootScope.$new(),
         SensorsMock = function() {
           this.get = function(id) {

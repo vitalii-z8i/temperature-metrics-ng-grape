@@ -5,6 +5,8 @@ module API
     format :json
 
     resource :sensors do
+
+      desc 'Collection actions'
       get do
         Sensor.by_priority
       end

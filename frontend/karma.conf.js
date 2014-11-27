@@ -12,12 +12,13 @@ module.exports = function(config){
       'app/js/resources.js',
       'app/js/controllers.js',
       'app/components/**/*.js',
-      'test/**/*.js'
+      // 'test/**/*.js',
+      'e2e-tests/scenarios.js'
     ],
 
     autoWatch : true,
 
-    frameworks: ['jasmine'],
+    frameworks: ['ng-scenario', 'jasmine'],
 
     browsers : ['Chrome'],
 

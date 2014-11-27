@@ -1,21 +1,152 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/bin/node',
 1 verbose cli   '/usr/bin/npm',
-1 verbose cli   'test',
-1 verbose cli   'e2e-tests/protractor.conf.js' ]
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'karma-ng-scenario' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
 4 verbose node symlink /usr/bin/node
-5 error Error: ENOENT, open '/home/vtl/projects/moc/temperature_metrics/frontend/node_modules/e2e-tests/protractor.conf.js/package.json'
-6 error If you need help, you may report this *entire* log,
-6 error including the npm and node versions, at:
-6 error     <http://github.com/npm/npm/issues>
-7 error System Linux 3.2.0-70-generic
-8 error command "/usr/bin/node" "/usr/bin/npm" "test" "e2e-tests/protractor.conf.js"
-9 error cwd /home/vtl/projects/moc/temperature_metrics/frontend
-10 error node -v v0.10.33
-11 error npm -v 1.4.28
-12 error path /home/vtl/projects/moc/temperature_metrics/frontend/node_modules/e2e-tests/protractor.conf.js/package.json
-13 error code ENOENT
-14 error errno 34
-15 verbose exit [ 34, true ]
+5 verbose cache add [ 'karma-ng-scenario', null ]
+6 verbose cache add name=undefined spec="karma-ng-scenario" args=["karma-ng-scenario",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'karma-ng-scenario',
+7 verbose parsed url   path: 'karma-ng-scenario',
+7 verbose parsed url   href: 'karma-ng-scenario' }
+8 silly lockFile e5bca250-karma-ng-scenario karma-ng-scenario
+9 verbose lock karma-ng-scenario /home/vtl/.npm/e5bca250-karma-ng-scenario.lock
+10 silly lockFile e5bca250-karma-ng-scenario karma-ng-scenario
+11 silly lockFile e5bca250-karma-ng-scenario karma-ng-scenario
+12 verbose addNamed [ 'karma-ng-scenario', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 4f100e2f-karma-ng-scenario karma-ng-scenario@
+15 verbose lock karma-ng-scenario@ /home/vtl/.npm/4f100e2f-karma-ng-scenario.lock
+16 silly addNameRange { name: 'karma-ng-scenario', range: '*', hasData: false }
+17 verbose request where is /karma-ng-scenario
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 6036f6279edfa6f2
+20 verbose url raw /karma-ng-scenario
+21 verbose url resolving [ 'https://registry.npmjs.org/', './karma-ng-scenario' ]
+22 verbose url resolved https://registry.npmjs.org/karma-ng-scenario
+23 verbose request where is https://registry.npmjs.org/karma-ng-scenario
+24 info trying registry request attempt 1 at 11:36:47
+25 verbose etag "7LL2DMZF8KP7RJ32Y7K6U9MMH"
+26 http GET https://registry.npmjs.org/karma-ng-scenario
+27 http 304 https://registry.npmjs.org/karma-ng-scenario
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Tue, 18 Nov 2014 09:36:47 GMT',
+28 silly registry.get     server: 'Apache',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'last-modified': 'Tue, 18 Nov 2014 09:36:47 GMT',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"7LL2DMZF8KP7RJ32Y7K6U9MMH"',
+28 silly registry.get     age: '27',
+28 silly registry.get     'x-served-by': 'cache-fra1248-FRA',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1416303407.829294,VS0,VE0',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/karma-ng-scenario from cache
+30 silly addNameRange number 2 { name: 'karma-ng-scenario', range: '*', hasData: true }
+31 silly addNameRange versions [ 'karma-ng-scenario', [ '0.0.1', '0.0.2', '0.1.0' ] ]
+32 verbose addNamed [ 'karma-ng-scenario', '0.1.0' ]
+33 verbose addNamed [ '0.1.0', '0.1.0' ]
+34 silly lockFile f90b10d8-karma-ng-scenario-0-1-0 karma-ng-scenario@0.1.0
+35 verbose lock karma-ng-scenario@0.1.0 /home/vtl/.npm/f90b10d8-karma-ng-scenario-0-1-0.lock
+36 silly lockFile f90b10d8-karma-ng-scenario-0-1-0 karma-ng-scenario@0.1.0
+37 silly lockFile f90b10d8-karma-ng-scenario-0-1-0 karma-ng-scenario@0.1.0
+38 silly lockFile 4f100e2f-karma-ng-scenario karma-ng-scenario@
+39 silly lockFile 4f100e2f-karma-ng-scenario karma-ng-scenario@
+40 silly resolved [ { name: 'karma-ng-scenario',
+40 silly resolved     version: '0.1.0',
+40 silly resolved     description: 'A Karma plugin. Adapter for Angular\'s Scenario Runner.',
+40 silly resolved     main: 'lib/index.js',
+40 silly resolved     scripts: { test: 'grunt test' },
+40 silly resolved     repository:
+40 silly resolved      { type: 'git',
+40 silly resolved        url: 'git://github.com/karma-runner/karma-ng-scenario.git' },
+40 silly resolved     keywords:
+40 silly resolved      [ 'karma-plugin',
+40 silly resolved        'karma-adapter',
+40 silly resolved        'angular',
+40 silly resolved        'e2e',
+40 silly resolved        'scenario-runner' ],
+40 silly resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+40 silly resolved     dependencies: {},
+40 silly resolved     devDependencies:
+40 silly resolved      { grunt: '~0.4.1',
+40 silly resolved        'grunt-contrib-jshint': '~0.6',
+40 silly resolved        karma: '~0.9',
+40 silly resolved        'karma-jasmine': '*',
+40 silly resolved        'karma-chrome-launcher': '*',
+40 silly resolved        'karma-firefox-launcher': '*',
+40 silly resolved        'grunt-karma': '~0.4',
+40 silly resolved        'grunt-bump': '~0.0.11',
+40 silly resolved        'grunt-npm': '~0.0.2',
+40 silly resolved        'grunt-auto-release': '~0.0.3' },
+40 silly resolved     peerDependencies: { karma: '>=0.9' },
+40 silly resolved     license: 'MIT',
+40 silly resolved     readme: '# karma-ng-scenario [![Build Status](https://travis-ci.org/karma-runner/karma-ng-scenario.png?branch=master)](https://travis-ci.org/karma-runner/karma-ng-scenario)\n\n> Adapter for the AngularJS Scenario Runner.\n\n**If you are starting a new project, we recommend using [Protractor] for e2e testing AngularJS projects.**\n\n## Installation\n\nThe easiest way is to keep `karma-ng-scenario` as a devDependency in your `package.json`.\n```json\n{\n  "devDependencies": {\n    "karma": "~0.10",\n    "karma-ng-scenario": "~0.1"\n  }\n}\n```\n\nYou can simple do it by:\n```bash\nnpm install karma-ng-scenario --save-dev\n```\n\n## Configuration\nFollowing code shows the default configuration...\n```js\n// karma.conf.js\nmodule.exports = function(config) {\n  config.set({\n    frameworks: [\'ng-scenario\'],\n\n    files: [\n      \'*.js\'\n    ]\n  });\n};\n```\n\n----\n\nFor more information on Karma see the [homepage].\n\n\n[homepage]: http://karma-runner.github.com\n[Protractor]: https://github.com/angular/protractor\n',
+40 silly resolved     readmeFilename: 'README.md',
+40 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-ng-scenario/issues' },
+40 silly resolved     _id: 'karma-ng-scenario@0.1.0',
+40 silly resolved     dist:
+40 silly resolved      { shasum: '0d7c8f1348597252178aab450866507f384d08a3',
+40 silly resolved        tarball: 'http://registry.npmjs.org/karma-ng-scenario/-/karma-ng-scenario-0.1.0.tgz' },
+40 silly resolved     _from: 'karma-ng-scenario@',
+40 silly resolved     _npmVersion: '1.3.2',
+40 silly resolved     _npmUser: { name: 'vojtajina', email: 'vojta.jina@gmail.com' },
+40 silly resolved     maintainers: [ [Object] ],
+40 silly resolved     directories: {},
+40 silly resolved     _shasum: '0d7c8f1348597252178aab450866507f384d08a3',
+40 silly resolved     _resolved: 'https://registry.npmjs.org/karma-ng-scenario/-/karma-ng-scenario-0.1.0.tgz',
+40 silly resolved     homepage: 'https://github.com/karma-runner/karma-ng-scenario' } ]
+41 info install karma-ng-scenario@0.1.0 into /usr/lib
+42 info installOne karma-ng-scenario@0.1.0
+43 verbose lib/node_modules/karma-ng-scenario unbuild
+44 verbose tar unpack /home/vtl/.npm/karma-ng-scenario/0.1.0/package.tgz
+45 silly lockFile 7e0f331c-b-node-modules-karma-ng-scenario tar:///usr/lib/node_modules/karma-ng-scenario
+46 verbose lock tar:///usr/lib/node_modules/karma-ng-scenario /home/vtl/.npm/7e0f331c-b-node-modules-karma-ng-scenario.lock
+47 silly lockFile 4e43a2f4-ma-ng-scenario-0-1-0-package-tgz tar:///home/vtl/.npm/karma-ng-scenario/0.1.0/package.tgz
+48 verbose lock tar:///home/vtl/.npm/karma-ng-scenario/0.1.0/package.tgz /home/vtl/.npm/4e43a2f4-ma-ng-scenario-0-1-0-package-tgz.lock
+49 silly gunzTarPerm modes [ '775', '664' ]
+50 error Error: EACCES, mkdir '/usr/lib/node_modules/karma-ng-scenario'
+50 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/karma-ng-scenario']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/usr/lib/node_modules/karma-ng-scenario',
+50 error   fstream_type: 'Directory',
+50 error   fstream_path: '/usr/lib/node_modules/karma-ng-scenario',
+50 error   fstream_class: 'DirWriter',
+50 error   fstream_stack:
+50 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+50 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+50 error      'Object.oncomplete (fs.js:107:15)' ] }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.2.0-70-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "karma-ng-scenario"
+54 error cwd /home/vtl/projects/moc/temperature_metrics/frontend
+55 error node -v v0.10.33
+56 error npm -v 1.4.28
+57 error path /usr/lib/node_modules/karma-ng-scenario
+58 error fstream_path /usr/lib/node_modules/karma-ng-scenario
+59 error fstream_type Directory
+60 error fstream_class DirWriter
+61 error code EACCES
+62 error errno 3
+63 error stack Error: EACCES, mkdir '/usr/lib/node_modules/karma-ng-scenario'
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+64 error fstream_stack Object.oncomplete (fs.js:107:15)
+65 verbose exit [ 3, true ]

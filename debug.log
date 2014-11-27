@@ -727,3 +727,1429 @@ D, [2014-11-11T12:13:05.927315 #24300] DEBUG -- :   [1m[36m (39.6ms)[0m  [1m
 D, [2014-11-11T12:13:05.929459 #24300] DEBUG -- :   [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `sensors`
 D, [2014-11-13T11:50:39.340225 #16622] DEBUG -- :   [1m[36mSensor Load (28.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
 D, [2014-11-13T11:50:45.160612 #16622] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-19T12:03:31.295308 #17746] DEBUG -- :   [1m[36mSensor Load (140.0ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-19T15:10:57.089384 #17746] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-19T15:13:36.398281 #17746] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-19T15:13:37.182916 #17746] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-19T15:14:03.003569 #17746] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-19T15:14:41.488669 #17746] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-19T15:20:07.797509 #1908] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-19T15:23:42.600325 #2047] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-19T15:38:35.333815 #3380] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+D, [2014-11-19T15:38:35.492440 #3380] DEBUG -- :   [1m[35mSQL (120.4ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Ololo')
+D, [2014-11-19T15:38:35.583417 #3380] DEBUG -- :   [1m[36m (90.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-19T15:38:35.679957 #3380] DEBUG -- :   [1m[35mSensor Load (19.7ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-19T15:41:18.163276 #3380] DEBUG -- :   [1m[36mSensor Load (0.1ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-19T15:42:09.833524 #3380] DEBUG -- :   [1m[35mSensor Load (0.1ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-19T15:42:11.092130 #3380] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-19T15:42:11.116924 #3380] DEBUG -- :   [1m[35mSQL (23.9ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Test')
+D, [2014-11-19T15:42:11.211037 #3380] DEBUG -- :   [1m[36m (93.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-19T15:42:11.258932 #3380] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-19T15:42:43.295465 #3380] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-19T15:42:44.543180 #3380] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-19T15:42:44.567783 #3380] DEBUG -- :   [1m[36mSQL (23.7ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('Test')[0m
+D, [2014-11-19T15:42:44.630450 #3380] DEBUG -- :   [1m[35m (62.3ms)[0m  COMMIT
+D, [2014-11-19T15:42:44.679296 #3380] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-19T15:43:05.270245 #3380] DEBUG -- :   [1m[35mSensor Load (0.1ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-19T15:43:09.211198 #3380] DEBUG -- :   [1m[36mSensor Load (88.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 18 LIMIT 1[0m
+D, [2014-11-19T15:43:09.211791 #3380] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-19T15:43:09.267611 #3380] DEBUG -- :   [1m[36mSQL (55.1ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 18[0m
+D, [2014-11-19T15:43:09.362486 #3380] DEBUG -- :   [1m[35m (94.3ms)[0m  COMMIT
+D, [2014-11-19T15:43:09.788171 #3380] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 19 LIMIT 1[0m
+D, [2014-11-19T15:43:09.788714 #3380] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-19T15:43:09.813163 #3380] DEBUG -- :   [1m[36mSQL (23.8ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 19[0m
+D, [2014-11-19T15:43:09.870944 #3380] DEBUG -- :   [1m[35m (57.4ms)[0m  COMMIT
+D, [2014-11-19T15:43:14.956089 #3380] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 17 LIMIT 1[0m
+D, [2014-11-19T15:43:14.956588 #3380] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-19T15:43:14.958332 #3380] DEBUG -- :   [1m[36mSQL (1.3ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 17[0m
+D, [2014-11-19T15:43:15.017143 #3380] DEBUG -- :   [1m[35m (58.5ms)[0m  COMMIT
+D, [2014-11-20T11:00:54.920896 #6232] DEBUG -- :   [1m[36mSensor Load (28.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-24T12:07:26.431458 #10766] DEBUG -- :   [1m[36mSensor Load (92.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-24T12:07:27.783327 #10766] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-24T12:07:27.802119 #10766] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('Test')[0m
+D, [2014-11-24T12:07:27.868843 #10766] DEBUG -- :   [1m[35m (65.9ms)[0m  COMMIT
+D, [2014-11-24T12:07:27.918774 #10766] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-24T12:08:04.043466 #10766] DEBUG -- :   [1m[35mSensor Load (0.1ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-24T12:08:05.222898 #10766] DEBUG -- :   [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+D, [2014-11-24T12:08:05.223966 #10766] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Test')
+D, [2014-11-24T12:08:05.285628 #10766] DEBUG -- :   [1m[36m (61.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-24T12:08:05.327521 #10766] DEBUG -- :   [1m[35mSensor Load (3.0ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-24T16:31:38.189081 #20950] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-24T16:31:39.517771 #20950] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-24T16:31:39.565198 #20950] DEBUG -- :   [1m[36mSQL (22.1ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('Test')[0m
+D, [2014-11-24T16:31:39.636993 #20950] DEBUG -- :   [1m[35m (70.7ms)[0m  COMMIT
+D, [2014-11-24T16:31:39.685412 #20950] DEBUG -- :   [1m[36mSensor Load (1.0ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-24T16:34:52.065783 #20950] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-24T16:34:52.944166 #20950] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-24T16:34:52.964950 #20950] DEBUG -- :   [1m[35mSQL (20.0ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Test')
+D, [2014-11-24T16:34:53.040756 #20950] DEBUG -- :   [1m[36m (75.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-24T16:34:53.077494 #20950] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-24T16:35:53.643011 #20950] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-24T17:47:51.645734 #20950] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-24T17:47:52.778773 #20950] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-24T17:47:52.798310 #20950] DEBUG -- :   [1m[35mSQL (18.8ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Test')
+D, [2014-11-24T17:47:52.880500 #20950] DEBUG -- :   [1m[36m (81.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-24T17:47:52.924619 #20950] DEBUG -- :   [1m[35mSensor Load (6.9ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-25T18:26:29.818424 #31894] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:26:29.963174 #31894] DEBUG -- :   [1m[35mSQL (99.5ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Test')
+D, [2014-11-25T18:26:30.110496 #31894] DEBUG -- :   [1m[36m (146.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:26:30.502740 #31894] DEBUG -- :   [1m[35mSensor Load (274.6ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-25T18:32:29.407851 #31894] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T18:32:30.293861 #31894] DEBUG -- :   [1m[35m (0.5ms)[0m  BEGIN
+D, [2014-11-25T18:32:30.304320 #31894] DEBUG -- :   [1m[36mSQL (8.6ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('Test')[0m
+D, [2014-11-25T18:32:30.382781 #31894] DEBUG -- :   [1m[35m (77.6ms)[0m  COMMIT
+D, [2014-11-25T18:32:30.466276 #31894] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T18:35:27.517029 #31894] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-25T18:35:28.410129 #31894] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:35:28.436849 #31894] DEBUG -- :   [1m[35mSQL (24.8ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Test')
+D, [2014-11-25T18:35:28.533927 #31894] DEBUG -- :   [1m[36m (96.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:35:28.572104 #31894] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-25T18:45:39.080459 #3615] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T18:46:03.080925 #3615] DEBUG -- :   [1m[35mSensor Load (76.3ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 23 LIMIT 1
+D, [2014-11-25T18:46:03.081594 #3615] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:46:03.263318 #3615] DEBUG -- :   [1m[35mSQL (176.4ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 23
+D, [2014-11-25T18:46:03.301653 #3615] DEBUG -- :   [1m[36m (37.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:46:06.353658 #3615] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 24 LIMIT 1
+D, [2014-11-25T18:46:06.354136 #3615] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:46:06.382567 #3615] DEBUG -- :   [1m[35mSQL (27.8ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 24
+D, [2014-11-25T18:46:06.451908 #3615] DEBUG -- :   [1m[36m (69.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:46:07.223233 #3615] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 17 LIMIT 1
+D, [2014-11-25T18:46:07.223783 #3615] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:46:07.226386 #3615] DEBUG -- :   [1m[35mSQL (2.1ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 17
+D, [2014-11-25T18:46:07.286274 #3615] DEBUG -- :   [1m[36m (59.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:46:07.576946 #3615] DEBUG -- :   [1m[35mSensor Load (1.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 18 LIMIT 1
+D, [2014-11-25T18:46:07.577750 #3615] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:46:07.579652 #3615] DEBUG -- :   [1m[35mSQL (1.1ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 18
+D, [2014-11-25T18:46:07.670300 #3615] DEBUG -- :   [1m[36m (90.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:46:07.917195 #3615] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 19 LIMIT 1
+D, [2014-11-25T18:46:07.917985 #3615] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:46:07.920927 #3615] DEBUG -- :   [1m[35mSQL (2.1ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 19
+D, [2014-11-25T18:46:07.978507 #3615] DEBUG -- :   [1m[36m (57.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:46:08.950937 #3615] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 20 LIMIT 1
+D, [2014-11-25T18:46:08.951824 #3615] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:46:08.954405 #3615] DEBUG -- :   [1m[35mSQL (1.9ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 20
+D, [2014-11-25T18:46:09.036929 #3615] DEBUG -- :   [1m[36m (82.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:46:10.111208 #3615] DEBUG -- :   [1m[35mSensor Load (0.7ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 21 LIMIT 1
+D, [2014-11-25T18:46:10.111995 #3615] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:46:10.133613 #3615] DEBUG -- :   [1m[35mSQL (20.8ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 21
+D, [2014-11-25T18:46:10.229236 #3615] DEBUG -- :   [1m[36m (95.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:52:54.792162 #3615] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-25T18:52:56.037742 #3615] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:52:56.057340 #3615] DEBUG -- :   [1m[35mSQL (11.8ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Test')
+D, [2014-11-25T18:52:56.125011 #3615] DEBUG -- :   [1m[36m (67.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:52:56.160935 #3615] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-25T18:52:56.982082 #3615] DEBUG -- :   [1m[36mSensor Load (23.3ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 22 LIMIT 1[0m
+D, [2014-11-25T18:52:56.982974 #3615] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-25T18:52:56.986723 #3615] DEBUG -- :   [1m[36mSQL (2.6ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 22[0m
+D, [2014-11-25T18:52:57.026822 #3615] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 25 LIMIT 1
+D, [2014-11-25T18:52:57.027402 #3615] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:52:57.084016 #3615] DEBUG -- :   [1m[35m (96.9ms)[0m  COMMIT
+D, [2014-11-25T18:52:57.109084 #3615] DEBUG -- :   [1m[36mSQL (81.0ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 25[0m
+D, [2014-11-25T18:52:57.184225 #3615] DEBUG -- :   [1m[35m (74.6ms)[0m  COMMIT
+D, [2014-11-25T18:53:18.721142 #3615] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T18:53:19.960525 #3615] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-25T18:53:19.989996 #3615] DEBUG -- :   [1m[36mSQL (28.8ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('Test')[0m
+D, [2014-11-25T18:53:20.025531 #3615] DEBUG -- :   [1m[35m (35.2ms)[0m  COMMIT
+D, [2014-11-25T18:53:20.059216 #3615] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T18:53:20.793024 #3615] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 26 LIMIT 1
+D, [2014-11-25T18:53:20.793601 #3615] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:53:20.817291 #3615] DEBUG -- :   [1m[35mSQL (23.0ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 26
+D, [2014-11-25T18:53:20.906767 #3615] DEBUG -- :   [1m[36m (89.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:53:34.339651 #3615] DEBUG -- :   [1m[35mSensor Load (55.1ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-25T18:55:32.603155 #4838] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T18:55:33.632228 #4838] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-25T18:55:33.692309 #4838] DEBUG -- :   [1m[36mSQL (57.4ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('Test')[0m
+D, [2014-11-25T18:55:33.866900 #4838] DEBUG -- :   [1m[35m (174.2ms)[0m  COMMIT
+D, [2014-11-25T18:55:33.909102 #4838] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T18:55:34.782656 #4838] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 27 LIMIT 1
+D, [2014-11-25T18:55:34.783636 #4838] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:55:34.804196 #4838] DEBUG -- :   [1m[35mSQL (19.1ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 27
+D, [2014-11-25T18:55:34.888089 #4838] DEBUG -- :   [1m[36m (83.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:58:38.166645 #4838] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-25T18:58:39.404626 #4838] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T18:58:39.417830 #4838] DEBUG -- :   [1m[35mSQL (12.5ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Test')
+D, [2014-11-25T18:58:39.472796 #4838] DEBUG -- :   [1m[36m (54.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T18:58:39.522412 #4838] DEBUG -- :   [1m[35mSensor Load (1.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-25T18:58:40.243000 #4838] DEBUG -- :   [1m[36mSensor Load (3.3ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 28 LIMIT 1[0m
+D, [2014-11-25T18:58:40.244033 #4838] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-25T18:58:40.270293 #4838] DEBUG -- :   [1m[36mSQL (25.4ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 28[0m
+D, [2014-11-25T18:58:40.372799 #4838] DEBUG -- :   [1m[35m (102.1ms)[0m  COMMIT
+D, [2014-11-25T19:00:30.180704 #4838] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T19:00:31.427073 #4838] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-25T19:00:31.444608 #4838] DEBUG -- :   [1m[36mSQL (16.8ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('Test')[0m
+D, [2014-11-25T19:00:31.518098 #4838] DEBUG -- :   [1m[35m (73.2ms)[0m  COMMIT
+D, [2014-11-25T19:00:31.560684 #4838] DEBUG -- :   [1m[36mSensor Load (1.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T19:00:32.396049 #4838] DEBUG -- :   [1m[35mSensor Load (3.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 29 LIMIT 1
+D, [2014-11-25T19:00:32.397052 #4838] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T19:00:32.399324 #4838] DEBUG -- :   [1m[35mSQL (1.3ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 29
+D, [2014-11-25T19:00:32.460205 #4838] DEBUG -- :   [1m[36m (60.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T19:01:48.593457 #4838] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-25T19:01:49.898725 #4838] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T19:01:49.914330 #4838] DEBUG -- :   [1m[35mSQL (14.7ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Test')
+D, [2014-11-25T19:01:50.006870 #4838] DEBUG -- :   [1m[36m (92.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T19:01:50.042649 #4838] DEBUG -- :   [1m[35mSensor Load (0.7ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-25T19:01:50.953402 #4838] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 30 LIMIT 1[0m
+D, [2014-11-25T19:01:50.954022 #4838] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-25T19:01:50.956781 #4838] DEBUG -- :   [1m[36mSQL (2.1ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 30[0m
+D, [2014-11-25T19:01:51.172665 #4838] DEBUG -- :   [1m[35m (215.5ms)[0m  COMMIT
+D, [2014-11-25T19:03:02.149974 #4838] DEBUG -- :   [1m[36mSensor Load (40.9ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T19:03:03.472688 #4838] DEBUG -- :   [1m[35m (5.5ms)[0m  BEGIN
+D, [2014-11-25T19:03:03.480889 #4838] DEBUG -- :   [1m[36mSQL (7.3ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('Test')[0m
+D, [2014-11-25T19:03:03.596007 #4838] DEBUG -- :   [1m[35m (114.6ms)[0m  COMMIT
+D, [2014-11-25T19:03:03.691562 #4838] DEBUG -- :   [1m[36mSensor Load (53.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T19:03:04.537854 #4838] DEBUG -- :   [1m[35mSensor Load (23.1ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 31 LIMIT 1
+D, [2014-11-25T19:03:04.538541 #4838] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T19:03:04.563445 #4838] DEBUG -- :   [1m[35mSQL (24.3ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 31
+D, [2014-11-25T19:03:04.655007 #4838] DEBUG -- :   [1m[36m (91.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-25T19:05:59.224713 #7796] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T19:06:00.503744 #7796] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-25T19:06:00.514971 #7796] DEBUG -- :   [1m[36mSQL (8.4ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('Test')[0m
+D, [2014-11-25T19:06:00.576074 #7796] DEBUG -- :   [1m[35m (60.6ms)[0m  COMMIT
+D, [2014-11-25T19:06:00.617184 #7796] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-25T19:06:01.532858 #7796] DEBUG -- :   [1m[35mSensor Load (1.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 32 LIMIT 1
+D, [2014-11-25T19:06:01.533996 #7796] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-25T19:06:01.542406 #7796] DEBUG -- :   [1m[35mSQL (6.9ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 32
+D, [2014-11-25T19:06:01.634763 #7796] DEBUG -- :   [1m[36m (92.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T09:19:52.047349 #5169] DEBUG -- :   [1m[36mSensor Load (1.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T09:19:59.123986 #5169] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T09:59:38.555563 #5169] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T09:59:40.223684 #5169] DEBUG -- :   [1m[35m (16.7ms)[0m  BEGIN
+D, [2014-11-26T09:59:40.304064 #5169] DEBUG -- :   [1m[36mSQL (54.6ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('Test')[0m
+D, [2014-11-26T09:59:40.398194 #5169] DEBUG -- :   [1m[35m (93.2ms)[0m  COMMIT
+D, [2014-11-26T09:59:40.435508 #5169] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T09:59:41.384047 #5169] DEBUG -- :   [1m[35mSensor Load (17.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 17 LIMIT 1
+D, [2014-11-26T09:59:41.384614 #5169] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T09:59:41.391241 #5169] DEBUG -- :   [1m[35mSQL (6.0ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 17
+D, [2014-11-26T09:59:41.457258 #5169] DEBUG -- :   [1m[36m (65.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T10:01:15.262764 #5169] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T10:01:16.578290 #5169] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T10:01:16.579266 #5169] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Test')
+D, [2014-11-26T10:01:16.652570 #5169] DEBUG -- :   [1m[36m (73.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T10:01:16.687507 #5169] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T10:01:17.392993 #5169] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 18 LIMIT 1[0m
+D, [2014-11-26T10:01:17.393502 #5169] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T10:01:17.394373 #5169] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 18[0m
+D, [2014-11-26T10:01:17.458779 #5169] DEBUG -- :   [1m[35m (64.1ms)[0m  COMMIT
+D, [2014-11-26T11:26:40.672920 #5169] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T11:26:41.811359 #5169] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T11:26:41.813553 #5169] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('Test')[0m
+D, [2014-11-26T11:26:41.880915 #5169] DEBUG -- :   [1m[35m (67.0ms)[0m  COMMIT
+D, [2014-11-26T11:26:41.922215 #5169] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T11:26:42.643844 #5169] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 19 LIMIT 1
+D, [2014-11-26T11:26:42.644323 #5169] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T11:26:42.645111 #5169] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 19
+D, [2014-11-26T11:26:42.790017 #5169] DEBUG -- :   [1m[36m (144.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T11:28:09.285472 #5169] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T11:28:10.518962 #5169] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T11:28:10.520156 #5169] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Test')
+D, [2014-11-26T11:28:10.604706 #5169] DEBUG -- :   [1m[36m (84.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T11:28:10.649570 #5169] DEBUG -- :   [1m[35mSensor Load (0.7ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T11:31:38.690864 #17332] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T11:31:40.101706 #17332] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T11:31:40.104857 #17332] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('Test')[0m
+D, [2014-11-26T11:31:40.158463 #17332] DEBUG -- :   [1m[35m (53.1ms)[0m  COMMIT
+D, [2014-11-26T11:31:40.188379 #17332] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T11:32:32.047052 #17332] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T11:32:33.287453 #17332] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T11:32:33.288686 #17332] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('Test')
+D, [2014-11-26T11:32:33.383750 #17332] DEBUG -- :   [1m[36m (94.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T11:32:33.423167 #17332] DEBUG -- :   [1m[35mSensor Load (1.0ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T11:32:49.739759 #17332] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T11:32:51.244533 #17332] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 20 LIMIT 1
+D, [2014-11-26T11:32:51.245022 #17332] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T11:32:51.246050 #17332] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 20
+D, [2014-11-26T11:32:51.339307 #17332] DEBUG -- :   [1m[36m (92.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T11:32:51.686803 #17332] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 21 LIMIT 1
+D, [2014-11-26T11:32:51.687460 #17332] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T11:32:51.688455 #17332] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 21
+D, [2014-11-26T11:32:51.748169 #17332] DEBUG -- :   [1m[36m (59.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T11:32:51.951867 #17332] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 22 LIMIT 1
+D, [2014-11-26T11:32:51.952376 #17332] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T11:32:51.953196 #17332] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 22
+D, [2014-11-26T11:32:52.006918 #17332] DEBUG -- :   [1m[36m (53.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T11:33:01.998853 #17332] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T11:33:03.413403 #17332] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T11:33:03.432679 #17332] DEBUG -- :   [1m[35mSQL (18.5ms)[0m  INSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')
+D, [2014-11-26T11:33:03.553121 #17332] DEBUG -- :   [1m[36m (120.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T11:33:03.606486 #17332] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T11:33:04.297921 #17332] DEBUG -- :   [1m[36mSensor Load (1.3ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 23 LIMIT 1[0m
+D, [2014-11-26T11:33:04.298407 #17332] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-26T11:33:04.299278 #17332] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 23[0m
+D, [2014-11-26T11:33:04.370885 #17332] DEBUG -- :   [1m[35m (71.2ms)[0m  COMMIT
+D, [2014-11-26T15:14:46.899089 #17332] DEBUG -- :   [1m[36mSensor Load (52.0ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T15:14:48.157109 #17332] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T15:14:48.158163 #17332] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T15:14:48.237010 #17332] DEBUG -- :   [1m[35m (78.5ms)[0m  COMMIT
+D, [2014-11-26T15:14:48.291046 #17332] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T15:14:48.966346 #17332] DEBUG -- :   [1m[35mSensor Load (2.7ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 24 LIMIT 1
+D, [2014-11-26T15:14:48.966864 #17332] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T15:14:48.984901 #17332] DEBUG -- :   [1m[35mSQL (17.3ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 24
+D, [2014-11-26T15:14:49.054829 #17332] DEBUG -- :   [1m[36m (69.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T15:14:49.749715 #17332] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T15:36:30.381054 #4680] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T15:36:31.810842 #4680] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-26T15:36:31.814702 #4680] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T15:36:31.921601 #4680] DEBUG -- :   [1m[35m (105.1ms)[0m  COMMIT
+D, [2014-11-26T15:36:31.961664 #4680] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T15:36:32.642517 #4680] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 25 LIMIT 1
+D, [2014-11-26T15:36:32.645060 #4680] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T15:36:32.646632 #4680] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 25
+D, [2014-11-26T15:36:32.722184 #4680] DEBUG -- :   [1m[36m (74.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T15:36:33.518691 #4680] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T15:41:34.661674 #4680] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T15:41:35.959251 #4680] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T15:41:35.960489 #4680] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T15:41:36.018003 #4680] DEBUG -- :   [1m[35m (57.1ms)[0m  COMMIT
+D, [2014-11-26T15:41:36.066967 #4680] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T15:41:36.803612 #4680] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 26 LIMIT 1
+D, [2014-11-26T15:41:36.804662 #4680] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T15:41:36.805861 #4680] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 26
+D, [2014-11-26T15:41:36.868520 #4680] DEBUG -- :   [1m[36m (62.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T15:41:37.514518 #4680] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:24:01.289854 #4680] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:24:02.764172 #4680] DEBUG -- :   [1m[35m (4.8ms)[0m  BEGIN
+D, [2014-11-26T16:24:02.784853 #4680] DEBUG -- :   [1m[36mSQL (19.7ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:24:02.881428 #4680] DEBUG -- :   [1m[35m (96.2ms)[0m  COMMIT
+D, [2014-11-26T16:24:02.928722 #4680] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:24:03.580878 #4680] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 27 LIMIT 1
+D, [2014-11-26T16:24:03.581469 #4680] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:24:03.582818 #4680] DEBUG -- :   [1m[35mSQL (0.8ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 27
+D, [2014-11-26T16:24:03.656675 #4680] DEBUG -- :   [1m[36m (73.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:24:04.426234 #4680] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:25:27.885393 #4680] DEBUG -- :   [1m[36mSensor Load (0.1ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:25:29.285513 #4680] DEBUG -- :   [1m[35m (1.0ms)[0m  BEGIN
+D, [2014-11-26T16:25:29.306733 #4680] DEBUG -- :   [1m[36mSQL (20.3ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:25:29.369757 #4680] DEBUG -- :   [1m[35m (62.5ms)[0m  COMMIT
+D, [2014-11-26T16:25:29.430240 #4680] DEBUG -- :   [1m[36mSensor Load (1.0ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:25:30.111023 #4680] DEBUG -- :   [1m[35mSensor Load (0.7ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 28 LIMIT 1
+D, [2014-11-26T16:25:30.111531 #4680] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:25:30.135811 #4680] DEBUG -- :   [1m[35mSQL (23.7ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 28
+D, [2014-11-26T16:25:30.211702 #4680] DEBUG -- :   [1m[36m (75.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:25:30.951812 #4680] DEBUG -- :   [1m[35mSensor Load (0.7ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:25:50.763046 #4680] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:25:52.080449 #4680] DEBUG -- :   [1m[35m (2.8ms)[0m  BEGIN
+D, [2014-11-26T16:25:52.105073 #4680] DEBUG -- :   [1m[36mSQL (23.8ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:25:52.189296 #4680] DEBUG -- :   [1m[35m (83.8ms)[0m  COMMIT
+D, [2014-11-26T16:25:52.233795 #4680] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:25:52.925382 #4680] DEBUG -- :   [1m[35mSensor Load (0.7ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 29 LIMIT 1
+D, [2014-11-26T16:25:52.925871 #4680] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:25:52.947974 #4680] DEBUG -- :   [1m[35mSQL (21.5ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 29
+D, [2014-11-26T16:25:53.019602 #4680] DEBUG -- :   [1m[36m (71.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:25:53.754791 #4680] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:29:46.320981 #10808] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:29:47.589398 #10808] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T16:29:47.613224 #10808] DEBUG -- :   [1m[36mSQL (20.9ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:29:47.687457 #10808] DEBUG -- :   [1m[35m (73.6ms)[0m  COMMIT
+D, [2014-11-26T16:29:47.746343 #10808] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:29:48.404326 #10808] DEBUG -- :   [1m[35mSensor Load (1.1ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 30 LIMIT 1
+D, [2014-11-26T16:29:48.404844 #10808] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:29:48.425600 #10808] DEBUG -- :   [1m[35mSQL (20.1ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 30
+D, [2014-11-26T16:29:48.529831 #10808] DEBUG -- :   [1m[36m (103.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:29:49.279384 #10808] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:30:53.327300 #10808] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:30:54.711942 #10808] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T16:30:54.714685 #10808] DEBUG -- :   [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:30:54.784273 #10808] DEBUG -- :   [1m[35m (69.0ms)[0m  COMMIT
+D, [2014-11-26T16:30:54.830769 #10808] DEBUG -- :   [1m[36mSensor Load (1.1ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:30:55.666731 #10808] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 31 LIMIT 1
+D, [2014-11-26T16:30:55.667367 #10808] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:30:55.670462 #10808] DEBUG -- :   [1m[35mSQL (2.4ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 31
+D, [2014-11-26T16:30:55.726223 #10808] DEBUG -- :   [1m[36m (55.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:30:56.537213 #10808] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:31:18.575309 #10808] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:31:19.933655 #10808] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-26T16:31:19.935966 #10808] DEBUG -- :   [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:31:20.028502 #10808] DEBUG -- :   [1m[35m (92.2ms)[0m  COMMIT
+D, [2014-11-26T16:31:20.098649 #10808] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:31:20.635926 #10808] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 32 LIMIT 1
+D, [2014-11-26T16:31:20.636508 #10808] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:31:20.638791 #10808] DEBUG -- :   [1m[35mSQL (1.7ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 32
+D, [2014-11-26T16:31:20.698059 #10808] DEBUG -- :   [1m[36m (59.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:31:21.480472 #10808] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:33:53.861909 #10808] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:33:55.250918 #10808] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T16:33:55.275827 #10808] DEBUG -- :   [1m[36mSQL (24.1ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:33:55.348972 #10808] DEBUG -- :   [1m[35m (72.8ms)[0m  COMMIT
+D, [2014-11-26T16:33:55.390968 #10808] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:33:56.170032 #10808] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 33 LIMIT 1
+D, [2014-11-26T16:33:56.170594 #10808] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:33:56.171539 #10808] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 33
+D, [2014-11-26T16:33:56.241209 #10808] DEBUG -- :   [1m[36m (69.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:33:56.897643 #10808] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:34:19.480451 #10808] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:34:20.880276 #10808] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T16:34:20.881542 #10808] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:34:20.948553 #10808] DEBUG -- :   [1m[35m (66.6ms)[0m  COMMIT
+D, [2014-11-26T16:34:21.000723 #10808] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:34:21.693011 #10808] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 34 LIMIT 1
+D, [2014-11-26T16:34:21.694554 #10808] DEBUG -- :   [1m[36m (1.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:34:21.695509 #10808] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 34
+D, [2014-11-26T16:34:21.732185 #10808] DEBUG -- :   [1m[36m (36.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:34:22.425021 #10808] DEBUG -- :   [1m[35mSensor Load (1.1ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:35:15.131586 #12939] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:35:16.497248 #12939] DEBUG -- :   [1m[35m (2.6ms)[0m  BEGIN
+D, [2014-11-26T16:35:16.501051 #12939] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:35:16.650789 #12939] DEBUG -- :   [1m[35m (149.2ms)[0m  COMMIT
+D, [2014-11-26T16:35:16.693065 #12939] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:35:17.432397 #12939] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 35 LIMIT 1
+D, [2014-11-26T16:35:17.432882 #12939] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:35:17.433847 #12939] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 35
+D, [2014-11-26T16:35:17.517852 #12939] DEBUG -- :   [1m[36m (83.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:35:18.279743 #12939] DEBUG -- :   [1m[35mSensor Load (1.0ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:37:22.031379 #12939] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:37:23.388196 #12939] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T16:37:23.405414 #12939] DEBUG -- :   [1m[36mSQL (16.2ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:37:23.472557 #12939] DEBUG -- :   [1m[35m (66.7ms)[0m  COMMIT
+D, [2014-11-26T16:37:23.510378 #12939] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:37:24.220344 #12939] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 36 LIMIT 1
+D, [2014-11-26T16:37:24.221450 #12939] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:37:24.222603 #12939] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 36
+D, [2014-11-26T16:37:24.273608 #12939] DEBUG -- :   [1m[36m (50.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:37:25.062262 #12939] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:53:41.448518 #12939] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:53:42.932055 #12939] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T16:53:42.933631 #12939] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:53:42.988183 #12939] DEBUG -- :   [1m[35m (54.2ms)[0m  COMMIT
+D, [2014-11-26T16:53:43.028679 #12939] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:53:43.736746 #12939] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 37 LIMIT 1
+D, [2014-11-26T16:53:43.737342 #12939] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:53:43.738540 #12939] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 37
+D, [2014-11-26T16:53:43.797160 #12939] DEBUG -- :   [1m[36m (58.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:53:44.465136 #12939] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:54:11.699835 #12939] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:54:13.135885 #12939] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T16:54:13.158896 #12939] DEBUG -- :   [1m[36mSQL (21.8ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:54:13.231924 #12939] DEBUG -- :   [1m[35m (72.7ms)[0m  COMMIT
+D, [2014-11-26T16:54:13.270500 #12939] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:54:14.002727 #12939] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 38 LIMIT 1
+D, [2014-11-26T16:54:14.003560 #12939] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:54:14.004940 #12939] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 38
+D, [2014-11-26T16:54:14.083817 #12939] DEBUG -- :   [1m[36m (78.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:54:14.892825 #12939] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:54:39.400318 #12939] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:55:31.031214 #15892] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:55:32.331890 #15892] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T16:55:32.335856 #15892] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:55:32.401586 #15892] DEBUG -- :   [1m[35m (65.3ms)[0m  COMMIT
+D, [2014-11-26T16:55:32.444100 #15892] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:55:33.154668 #15892] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 39 LIMIT 1
+D, [2014-11-26T16:55:33.155192 #15892] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:55:33.156276 #15892] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 39
+D, [2014-11-26T16:55:33.228423 #15892] DEBUG -- :   [1m[36m (71.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:55:33.986315 #15892] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T16:56:57.076695 #15892] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:56:58.441070 #15892] DEBUG -- :   [1m[35m (0.8ms)[0m  BEGIN
+D, [2014-11-26T16:56:58.442990 #15892] DEBUG -- :   [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-26T16:56:58.494549 #15892] DEBUG -- :   [1m[35m (51.2ms)[0m  COMMIT
+D, [2014-11-26T16:56:58.535532 #15892] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T16:56:59.320638 #15892] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 40 LIMIT 1
+D, [2014-11-26T16:56:59.321712 #15892] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T16:56:59.323872 #15892] DEBUG -- :   [1m[35mSQL (0.8ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 40
+D, [2014-11-26T16:56:59.503738 #15892] DEBUG -- :   [1m[36m (179.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T16:57:00.196999 #15892] DEBUG -- :   [1m[35mSensor Load (0.7ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T17:49:18.729506 #21785] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:18.914511 #21785] DEBUG -- :   [1m[35mSQL (153.8ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Barontown')
+D, [2014-11-26T17:49:19.007150 #21785] DEBUG -- :   [1m[36m (91.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:19.057230 #21785] DEBUG -- :   [1m[35mSQL (48.0ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:49:19.404377 #21785] DEBUG -- :   [1m[36mSensor Load (22.0ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T17:49:19.460694 #21785] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:49:19.466296 #21785] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:19.486410 #21785] DEBUG -- :   [1m[35mSQL (18.1ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Barontown')
+D, [2014-11-26T17:49:19.549151 #21785] DEBUG -- :   [1m[36m (61.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:19.551102 #21785] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T17:49:19.553376 #21785] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Barontown')[0m
+D, [2014-11-26T17:49:19.599271 #21785] DEBUG -- :   [1m[35m (45.0ms)[0m  COMMIT
+D, [2014-11-26T17:49:19.601152 #21785] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:19.603263 #21785] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Barontown')
+D, [2014-11-26T17:49:19.649400 #21785] DEBUG -- :   [1m[36m (45.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:19.655458 #21785] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T17:49:19.664157 #21785] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T17:49:19.749585 #21785] DEBUG -- :   [1m[35mSQL (77.3ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:49:19.789809 #21785] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:19.819028 #21785] DEBUG -- :   [1m[35mSQL (27.2ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T17:49:19.874656 #21785] DEBUG -- :   [1m[36m (54.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:19.976942 #21785] DEBUG -- :   [1m[35m (97.1ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T17:49:19.983113 #21785] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T17:49:20.049815 #21785] DEBUG -- :   [1m[35mSQL (64.1ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:49:20.055426 #21785] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:20.058062 #21785] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Barontown')
+D, [2014-11-26T17:49:20.108310 #21785] DEBUG -- :   [1m[36m (49.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:20.166274 #21785] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 6  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T17:49:20.224810 #21785] DEBUG -- :   [1m[36mSQL (55.0ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T17:49:20.227214 #21785] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T17:49:20.229327 #21785] DEBUG -- :   [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Barontown')[0m
+D, [2014-11-26T17:49:20.258544 #21785] DEBUG -- :   [1m[35m (28.7ms)[0m  COMMIT
+D, [2014-11-26T17:49:20.264862 #21785] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 7 LIMIT 1[0m
+D, [2014-11-26T17:49:20.266388 #21785] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T17:49:20.299091 #21785] DEBUG -- :   [1m[36mSQL (29.0ms)[0m  [1mUPDATE `sensors` SET `featured` = 0, `name` = 'New_name' WHERE `sensors`.`id` = 7[0m
+D, [2014-11-26T17:49:20.342023 #21785] DEBUG -- :   [1m[35m (42.3ms)[0m  COMMIT
+D, [2014-11-26T17:49:20.347009 #21785] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 7 LIMIT 1[0m
+D, [2014-11-26T17:49:20.400533 #21785] DEBUG -- :   [1m[35mSQL (49.1ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:49:20.405394 #21785] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:20.430750 #21785] DEBUG -- :   [1m[35mSQL (23.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Barontown')
+D, [2014-11-26T17:49:20.467256 #21785] DEBUG -- :   [1m[36m (35.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:20.472970 #21785] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 8 LIMIT 1
+D, [2014-11-26T17:49:20.474075 #21785] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:20.476010 #21785] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 8
+D, [2014-11-26T17:49:20.509086 #21785] DEBUG -- :   [1m[36m (32.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:20.513962 #21785] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T17:49:48.758042 #21802] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:48.780972 #21802] DEBUG -- :   [1m[35mSQL (15.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Kutchhaven')
+D, [2014-11-26T17:49:48.857421 #21802] DEBUG -- :   [1m[36m (75.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:55.459964 #21826] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:55.464147 #21826] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Port Lavinia')
+D, [2014-11-26T17:49:55.549711 #21826] DEBUG -- :   [1m[36m (85.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:55.600006 #21826] DEBUG -- :   [1m[35mSQL (49.3ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:49:55.660847 #21826] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T17:49:55.665502 #21826] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:49:55.667610 #21826] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:55.670026 #21826] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Port Lavinia')
+D, [2014-11-26T17:49:55.716704 #21826] DEBUG -- :   [1m[36m (45.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:55.718806 #21826] DEBUG -- :   [1m[35m (0.6ms)[0m  BEGIN
+D, [2014-11-26T17:49:55.739798 #21826] DEBUG -- :   [1m[36mSQL (19.5ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Port Lavinia')[0m
+D, [2014-11-26T17:49:55.825231 #21826] DEBUG -- :   [1m[35m (84.7ms)[0m  COMMIT
+D, [2014-11-26T17:49:55.827168 #21826] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:55.829464 #21826] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Port Lavinia')
+D, [2014-11-26T17:49:55.883686 #21826] DEBUG -- :   [1m[36m (53.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:55.888120 #21826] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T17:49:55.896266 #21826] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T17:49:55.958836 #21826] DEBUG -- :   [1m[35mSQL (55.3ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:49:55.967479 #21826] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:55.968741 #21826] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T17:49:56.008735 #21826] DEBUG -- :   [1m[36m (39.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:56.011203 #21826] DEBUG -- :   [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T17:49:56.016646 #21826] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T17:49:56.059076 #21826] DEBUG -- :   [1m[35mSQL (40.1ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:49:56.064102 #21826] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:56.066514 #21826] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Port Lavinia')
+D, [2014-11-26T17:49:56.109256 #21826] DEBUG -- :   [1m[36m (41.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:56.121257 #21826] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 15  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T17:49:56.167427 #21826] DEBUG -- :   [1m[36mSQL (43.6ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T17:49:56.171400 #21826] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T17:49:56.173995 #21826] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Port Lavinia')[0m
+D, [2014-11-26T17:49:56.217765 #21826] DEBUG -- :   [1m[35m (43.0ms)[0m  COMMIT
+D, [2014-11-26T17:49:56.223816 #21826] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 16 LIMIT 1[0m
+D, [2014-11-26T17:49:56.225223 #21826] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T17:49:56.229823 #21826] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mUPDATE `sensors` SET `featured` = 0, `name` = 'New_name' WHERE `sensors`.`id` = 16[0m
+D, [2014-11-26T17:49:56.267882 #21826] DEBUG -- :   [1m[35m (37.5ms)[0m  COMMIT
+D, [2014-11-26T17:49:56.273104 #21826] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 16 LIMIT 1[0m
+D, [2014-11-26T17:49:56.318034 #21826] DEBUG -- :   [1m[35mSQL (41.0ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:49:56.322897 #21826] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:56.325156 #21826] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Port Lavinia')
+D, [2014-11-26T17:49:56.368147 #21826] DEBUG -- :   [1m[36m (42.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:56.373327 #21826] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 17 LIMIT 1
+D, [2014-11-26T17:49:56.374238 #21826] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:49:56.376075 #21826] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 17
+D, [2014-11-26T17:49:56.418234 #21826] DEBUG -- :   [1m[36m (41.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:49:56.423124 #21826] DEBUG -- :   [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T17:51:30.623864 #22167] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:51:30.633125 #22167] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Maybelleberg')
+D, [2014-11-26T17:51:30.690296 #22167] DEBUG -- :   [1m[36m (56.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:51:30.723717 #22167] DEBUG -- :   [1m[35mSQL (31.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:51:30.784879 #22167] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T17:51:30.790072 #22167] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:51:30.795165 #22167] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:51:30.797665 #22167] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Maybelleberg')
+D, [2014-11-26T17:51:30.840472 #22167] DEBUG -- :   [1m[36m (42.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:51:30.842360 #22167] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T17:51:30.844596 #22167] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Maybelleberg')[0m
+D, [2014-11-26T17:51:30.873983 #22167] DEBUG -- :   [1m[35m (28.7ms)[0m  COMMIT
+D, [2014-11-26T17:51:30.875816 #22167] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:51:30.877987 #22167] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Maybelleberg')
+D, [2014-11-26T17:51:30.924113 #22167] DEBUG -- :   [1m[36m (45.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:51:30.928562 #22167] DEBUG -- :   [1m[35mSensor Load (1.0ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T17:51:30.937346 #22167] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T17:51:30.982640 #22167] DEBUG -- :   [1m[35mSQL (37.6ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:51:30.994530 #22167] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:51:30.997070 #22167] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T17:51:31.040904 #22167] DEBUG -- :   [1m[36m (42.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:51:31.046669 #22167] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T17:51:31.053341 #22167] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T17:51:31.099477 #22167] DEBUG -- :   [1m[35mSQL (43.7ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:51:31.104568 #22167] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:51:31.107074 #22167] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Maybelleberg')
+D, [2014-11-26T17:51:31.149607 #22167] DEBUG -- :   [1m[36m (41.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:51:31.161928 #22167] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 23  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T17:51:31.208182 #22167] DEBUG -- :   [1m[36mSQL (39.2ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T17:51:31.213286 #22167] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T17:51:31.237804 #22167] DEBUG -- :   [1m[36mSQL (22.7ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Maybelleberg')[0m
+D, [2014-11-26T17:51:31.276051 #22167] DEBUG -- :   [1m[35m (37.3ms)[0m  COMMIT
+D, [2014-11-26T17:51:31.282191 #22167] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 24 LIMIT 1[0m
+D, [2014-11-26T17:51:31.283725 #22167] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T17:51:31.288397 #22167] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1mUPDATE `sensors` SET `name` = 'New_name' WHERE `sensors`.`id` = 24[0m
+D, [2014-11-26T17:51:31.326170 #22167] DEBUG -- :   [1m[35m (37.2ms)[0m  COMMIT
+D, [2014-11-26T17:51:31.331338 #22167] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 24 LIMIT 1[0m
+D, [2014-11-26T17:51:31.376315 #22167] DEBUG -- :   [1m[35mSQL (40.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:51:31.381359 #22167] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:51:31.383863 #22167] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Maybelleberg')
+D, [2014-11-26T17:51:31.426393 #22167] DEBUG -- :   [1m[36m (41.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:51:31.431963 #22167] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 25 LIMIT 1
+D, [2014-11-26T17:51:31.433150 #22167] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:51:31.435101 #22167] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 25
+D, [2014-11-26T17:51:31.476581 #22167] DEBUG -- :   [1m[36m (40.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:51:31.481547 #22167] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T17:55:51.769756 #22563] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:55:51.778033 #22563] DEBUG -- :   [1m[35mSQL (0.8ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Janaeton')
+D, [2014-11-26T17:55:52.081879 #22563] DEBUG -- :   [1m[36m (302.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:55:52.131974 #22563] DEBUG -- :   [1m[35mSQL (48.2ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:55:52.202352 #22563] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T17:55:52.215581 #22563] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:55:52.220785 #22563] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:55:52.247758 #22563] DEBUG -- :   [1m[35mSQL (26.2ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Janaeton')
+D, [2014-11-26T17:55:52.307063 #22563] DEBUG -- :   [1m[36m (58.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:55:52.308949 #22563] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T17:55:52.311745 #22563] DEBUG -- :   [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Janaeton')[0m
+D, [2014-11-26T17:55:52.423885 #22563] DEBUG -- :   [1m[35m (111.4ms)[0m  COMMIT
+D, [2014-11-26T17:55:52.425718 #22563] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:55:52.427759 #22563] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Janaeton')
+D, [2014-11-26T17:55:52.474008 #22563] DEBUG -- :   [1m[36m (45.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:55:52.478397 #22563] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T17:55:52.486546 #22563] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T17:55:52.549157 #22563] DEBUG -- :   [1m[35mSQL (55.3ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:55:52.558943 #22563] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:55:52.560284 #22563] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T17:55:52.615884 #22563] DEBUG -- :   [1m[36m (55.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:55:52.621438 #22563] DEBUG -- :   [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T17:55:52.628460 #22563] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T17:55:52.691079 #22563] DEBUG -- :   [1m[35mSQL (60.2ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:55:52.696094 #22563] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:55:52.698484 #22563] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Janaeton')
+D, [2014-11-26T17:55:52.757888 #22563] DEBUG -- :   [1m[36m (58.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:55:52.770094 #22563] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 31  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T17:55:52.832994 #22563] DEBUG -- :   [1m[36mSQL (58.6ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T17:55:52.838097 #22563] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T17:55:52.840962 #22563] DEBUG -- :   [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Janaeton')[0m
+D, [2014-11-26T17:55:52.883058 #22563] DEBUG -- :   [1m[35m (41.2ms)[0m  COMMIT
+D, [2014-11-26T17:55:52.889220 #22563] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 32 LIMIT 1[0m
+D, [2014-11-26T17:55:52.890583 #22563] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T17:55:52.895093 #22563] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mUPDATE `sensors` SET `name` = 'New_name' WHERE `sensors`.`id` = 32[0m
+D, [2014-11-26T17:55:52.933250 #22563] DEBUG -- :   [1m[35m (37.6ms)[0m  COMMIT
+D, [2014-11-26T17:55:52.939543 #22563] DEBUG -- :   [1m[36mSensor Load (2.1ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 32 LIMIT 1[0m
+D, [2014-11-26T17:55:52.991678 #22563] DEBUG -- :   [1m[35mSQL (47.3ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T17:55:52.996598 #22563] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:55:52.998953 #22563] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Janaeton')
+D, [2014-11-26T17:55:53.041814 #22563] DEBUG -- :   [1m[36m (42.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:55:53.047455 #22563] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 33 LIMIT 1
+D, [2014-11-26T17:55:53.048738 #22563] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T17:55:53.050727 #22563] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 33
+D, [2014-11-26T17:55:53.091903 #22563] DEBUG -- :   [1m[36m (40.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T17:55:53.096755 #22563] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:00:42.435320 #23138] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:00:42.455952 #23138] DEBUG -- :   [1m[35mSQL (13.8ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Rosella')
+D, [2014-11-26T18:00:42.549569 #23138] DEBUG -- :   [1m[36m (92.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:00:42.599649 #23138] DEBUG -- :   [1m[35mSQL (48.1ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:00:42.700173 #23138] DEBUG -- :   [1m[36mSensor Load (24.1ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T18:00:42.718915 #23138] DEBUG -- :   [1m[35mSQL (6.1ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:00:42.724003 #23138] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:00:42.726617 #23138] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Rosella')
+D, [2014-11-26T18:00:42.791409 #23138] DEBUG -- :   [1m[36m (63.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:00:42.793242 #23138] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:00:42.795460 #23138] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Rosella')[0m
+D, [2014-11-26T18:00:42.841541 #23138] DEBUG -- :   [1m[35m (45.4ms)[0m  COMMIT
+D, [2014-11-26T18:00:42.843234 #23138] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:00:42.864565 #23138] DEBUG -- :   [1m[35mSQL (19.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Rosella')
+D, [2014-11-26T18:00:42.925008 #23138] DEBUG -- :   [1m[36m (59.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:00:42.947524 #23138] DEBUG -- :   [1m[35mSensor Load (19.0ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T18:00:42.956116 #23138] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T18:00:43.050144 #23138] DEBUG -- :   [1m[35mSQL (86.3ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:00:43.064604 #23138] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:00:43.066034 #23138] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T18:00:43.108493 #23138] DEBUG -- :   [1m[36m (42.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:00:43.113543 #23138] DEBUG -- :   [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:00:43.116674 #23138] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T18:00:43.175398 #23138] DEBUG -- :   [1m[35mSQL (57.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:00:43.180446 #23138] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:00:43.182946 #23138] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Rosella')
+D, [2014-11-26T18:00:43.225466 #23138] DEBUG -- :   [1m[36m (41.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:00:43.255696 #23138] DEBUG -- :   [1m[35mSensor Load (21.5ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 39  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T18:00:43.325656 #23138] DEBUG -- :   [1m[36mSQL (62.8ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:00:43.330702 #23138] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:00:43.333184 #23138] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Rosella')[0m
+D, [2014-11-26T18:00:43.375814 #23138] DEBUG -- :   [1m[35m (41.7ms)[0m  COMMIT
+D, [2014-11-26T18:00:43.412180 #23138] DEBUG -- :   [1m[36mSensor Load (31.1ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 40 LIMIT 1[0m
+D, [2014-11-26T18:00:43.413817 #23138] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:00:43.435336 #23138] DEBUG -- :   [1m[36mSQL (17.7ms)[0m  [1mUPDATE `sensors` SET `featured` = 0, `name` = 'New_name' WHERE `sensors`.`id` = 40[0m
+D, [2014-11-26T18:00:43.484199 #23138] DEBUG -- :   [1m[35m (48.2ms)[0m  COMMIT
+D, [2014-11-26T18:00:43.490272 #23138] DEBUG -- :   [1m[36mSensor Load (1.9ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 40 LIMIT 1[0m
+D, [2014-11-26T18:00:43.567670 #23138] DEBUG -- :   [1m[35mSQL (73.2ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:00:43.572658 #23138] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:00:43.575030 #23138] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Rosella')
+D, [2014-11-26T18:00:43.617824 #23138] DEBUG -- :   [1m[36m (42.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:00:43.645321 #23138] DEBUG -- :   [1m[35mSensor Load (22.7ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 41 LIMIT 1
+D, [2014-11-26T18:00:43.646661 #23138] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:00:43.664526 #23138] DEBUG -- :   [1m[35mSQL (16.5ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 41
+D, [2014-11-26T18:00:43.734569 #23138] DEBUG -- :   [1m[36m (69.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:00:43.739522 #23138] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:01:49.253183 #23320] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:01:49.259254 #23320] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Forrestmouth')
+D, [2014-11-26T18:01:49.328985 #23320] DEBUG -- :   [1m[36m (69.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:01:49.387430 #23320] DEBUG -- :   [1m[35mSQL (56.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:01:49.464157 #23320] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T18:01:49.469071 #23320] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:01:49.477184 #23320] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:01:49.500755 #23320] DEBUG -- :   [1m[35mSQL (21.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Forrestmouth')
+D, [2014-11-26T18:01:49.562522 #23320] DEBUG -- :   [1m[36m (60.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:01:49.564379 #23320] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T18:01:49.566533 #23320] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Forrestmouth')[0m
+D, [2014-11-26T18:01:49.604392 #23320] DEBUG -- :   [1m[35m (37.1ms)[0m  COMMIT
+D, [2014-11-26T18:01:49.607537 #23320] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:01:49.609902 #23320] DEBUG -- :   [1m[35mSQL (0.8ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Forrestmouth')
+D, [2014-11-26T18:01:49.654478 #23320] DEBUG -- :   [1m[36m (43.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:01:49.659415 #23320] DEBUG -- :   [1m[35mSensor Load (1.0ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T18:01:49.668134 #23320] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T18:01:49.729669 #23320] DEBUG -- :   [1m[35mSQL (53.7ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:01:49.739537 #23320] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:01:49.740948 #23320] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T18:01:49.779716 #23320] DEBUG -- :   [1m[36m (38.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:01:49.785389 #23320] DEBUG -- :   [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:01:49.789809 #23320] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T18:01:49.831207 #23320] DEBUG -- :   [1m[35mSQL (38.7ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:01:49.836629 #23320] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:01:49.839257 #23320] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Forrestmouth')
+D, [2014-11-26T18:01:49.872860 #23320] DEBUG -- :   [1m[36m (32.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:01:49.882890 #23320] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 47  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T18:01:49.923229 #23320] DEBUG -- :   [1m[36mSQL (33.2ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:01:49.926454 #23320] DEBUG -- :   [1m[35m (0.5ms)[0m  BEGIN
+D, [2014-11-26T18:01:49.929210 #23320] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Forrestmouth')[0m
+D, [2014-11-26T18:01:49.964749 #23320] DEBUG -- :   [1m[35m (34.6ms)[0m  COMMIT
+D, [2014-11-26T18:01:49.971404 #23320] DEBUG -- :   [1m[36mSensor Load (1.0ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 48 LIMIT 1[0m
+D, [2014-11-26T18:01:49.973141 #23320] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:01:49.977593 #23320] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1mUPDATE `sensors` SET `name` = 'New_name' WHERE `sensors`.`id` = 48[0m
+D, [2014-11-26T18:01:50.014842 #23320] DEBUG -- :   [1m[35m (36.7ms)[0m  COMMIT
+D, [2014-11-26T18:01:50.019890 #23320] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 48 LIMIT 1[0m
+D, [2014-11-26T18:01:50.064825 #23320] DEBUG -- :   [1m[35mSQL (40.7ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:01:50.066516 #23320] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:01:50.067815 #23320] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Forrestmouth')
+D, [2014-11-26T18:01:50.106794 #23320] DEBUG -- :   [1m[36m (38.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:01:50.112715 #23320] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 49 LIMIT 1
+D, [2014-11-26T18:01:50.113971 #23320] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:01:50.115902 #23320] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 49
+D, [2014-11-26T18:01:50.156894 #23320] DEBUG -- :   [1m[36m (40.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:01:50.161926 #23320] DEBUG -- :   [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:02:28.189777 #23403] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:02:28.199251 #23403] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Josephinefort')
+D, [2014-11-26T18:02:28.257198 #23403] DEBUG -- :   [1m[36m (57.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:02:28.307378 #23403] DEBUG -- :   [1m[35mSQL (48.1ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:02:28.381013 #23403] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T18:02:28.385678 #23403] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:02:28.387559 #23403] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:02:28.388986 #23403] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Josephinefort')
+D, [2014-11-26T18:02:28.440840 #23403] DEBUG -- :   [1m[36m (51.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:02:28.442676 #23403] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:02:28.445023 #23403] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Josephinefort')[0m
+D, [2014-11-26T18:02:28.491001 #23403] DEBUG -- :   [1m[35m (45.2ms)[0m  COMMIT
+D, [2014-11-26T18:02:28.492878 #23403] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:02:28.495050 #23403] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Josephinefort')
+D, [2014-11-26T18:02:28.541142 #23403] DEBUG -- :   [1m[36m (45.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:02:28.545736 #23403] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T18:02:28.554442 #23403] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T18:02:28.607923 #23403] DEBUG -- :   [1m[35mSQL (45.8ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:02:28.618687 #23403] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:02:28.619984 #23403] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T18:02:28.666368 #23403] DEBUG -- :   [1m[36m (45.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:02:28.672382 #23403] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:02:28.679262 #23403] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T18:02:28.733135 #23403] DEBUG -- :   [1m[35mSQL (51.3ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:02:28.738334 #23403] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:02:28.740935 #23403] DEBUG -- :   [1m[35mSQL (0.8ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Josephinefort')
+D, [2014-11-26T18:02:28.791530 #23403] DEBUG -- :   [1m[36m (49.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:02:28.799312 #23403] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 55  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T18:02:28.849885 #23403] DEBUG -- :   [1m[36mSQL (47.9ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:02:28.852293 #23403] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T18:02:28.854769 #23403] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Josephinefort')[0m
+D, [2014-11-26T18:02:28.900356 #23403] DEBUG -- :   [1m[35m (44.6ms)[0m  COMMIT
+D, [2014-11-26T18:02:28.906603 #23403] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 56 LIMIT 1[0m
+D, [2014-11-26T18:02:28.908057 #23403] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:02:28.912829 #23403] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1mUPDATE `sensors` SET `featured` = 0, `name` = 'New_name' WHERE `sensors`.`id` = 56[0m
+D, [2014-11-26T18:02:28.950321 #23403] DEBUG -- :   [1m[35m (36.9ms)[0m  COMMIT
+D, [2014-11-26T18:02:28.955372 #23403] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 56 LIMIT 1[0m
+D, [2014-11-26T18:02:29.008790 #23403] DEBUG -- :   [1m[35mSQL (49.0ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:02:29.013913 #23403] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:02:29.016376 #23403] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Josephinefort')
+D, [2014-11-26T18:02:29.058888 #23403] DEBUG -- :   [1m[36m (41.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:02:29.064487 #23403] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 57 LIMIT 1
+D, [2014-11-26T18:02:29.065623 #23403] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:02:29.067532 #23403] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 57
+D, [2014-11-26T18:02:29.109017 #23403] DEBUG -- :   [1m[36m (40.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:02:29.114059 #23403] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:03:01.899494 #23439] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:01.917976 #23439] DEBUG -- :   [1m[35mSQL (15.3ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Monserrat')
+D, [2014-11-26T18:03:01.997709 #23439] DEBUG -- :   [1m[36m (78.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:02.056111 #23439] DEBUG -- :   [1m[35mSQL (56.3ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:03:02.138460 #23439] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T18:03:02.143411 #23439] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:03:02.145518 #23439] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:02.146856 #23439] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Monserrat')
+D, [2014-11-26T18:03:02.217775 #23439] DEBUG -- :   [1m[36m (60.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:02.218630 #23439] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T18:03:02.241867 #23439] DEBUG -- :   [1m[36mSQL (22.5ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Monserrat')[0m
+D, [2014-11-26T18:03:02.299209 #23439] DEBUG -- :   [1m[35m (56.6ms)[0m  COMMIT
+D, [2014-11-26T18:03:02.301216 #23439] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:02.303542 #23439] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Monserrat')
+D, [2014-11-26T18:03:02.357657 #23439] DEBUG -- :   [1m[36m (53.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:02.362573 #23439] DEBUG -- :   [1m[35mSensor Load (1.0ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T18:03:02.371648 #23439] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T18:03:02.457936 #23439] DEBUG -- :   [1m[35mSQL (77.9ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:03:02.470698 #23439] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:02.472197 #23439] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T18:03:02.532887 #23439] DEBUG -- :   [1m[36m (60.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:02.538928 #23439] DEBUG -- :   [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:03:02.543942 #23439] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T18:03:02.583091 #23439] DEBUG -- :   [1m[35mSQL (36.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:03:02.588783 #23439] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:02.591581 #23439] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Monserrat')
+D, [2014-11-26T18:03:02.633156 #23439] DEBUG -- :   [1m[36m (40.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:02.645882 #23439] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 63  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T18:03:02.691597 #23439] DEBUG -- :   [1m[36mSQL (40.7ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:03:02.697045 #23439] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T18:03:02.722391 #23439] DEBUG -- :   [1m[36mSQL (23.4ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Monserrat')[0m
+D, [2014-11-26T18:03:02.766760 #23439] DEBUG -- :   [1m[35m (43.5ms)[0m  COMMIT
+D, [2014-11-26T18:03:02.773608 #23439] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 64 LIMIT 1[0m
+D, [2014-11-26T18:03:02.775216 #23439] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:03:02.779863 #23439] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1mUPDATE `sensors` SET `featured` = 0, `name` = 'New_name' WHERE `sensors`.`id` = 64[0m
+D, [2014-11-26T18:03:02.816880 #23439] DEBUG -- :   [1m[35m (36.3ms)[0m  COMMIT
+D, [2014-11-26T18:03:02.822666 #23439] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 64 LIMIT 1[0m
+D, [2014-11-26T18:03:02.866959 #23439] DEBUG -- :   [1m[35mSQL (39.8ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:03:02.872091 #23439] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:02.874765 #23439] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Monserrat')
+D, [2014-11-26T18:03:02.917017 #23439] DEBUG -- :   [1m[36m (41.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:02.919959 #23439] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 65 LIMIT 1
+D, [2014-11-26T18:03:02.920649 #23439] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:02.921823 #23439] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 65
+D, [2014-11-26T18:03:03.000750 #23439] DEBUG -- :   [1m[36m (78.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:03.006234 #23439] DEBUG -- :   [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:03:09.522836 #23498] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:09.526767 #23498] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Kleinmouth')
+D, [2014-11-26T18:03:09.602264 #23498] DEBUG -- :   [1m[36m (74.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:09.644112 #23498] DEBUG -- :   [1m[35mSQL (39.7ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:03:09.736317 #23498] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:03:09.738961 #23498] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T18:03:09.740659 #23498] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Kleinmouth')[0m
+D, [2014-11-26T18:03:09.785874 #23498] DEBUG -- :   [1m[35m (44.6ms)[0m  COMMIT
+D, [2014-11-26T18:03:09.787734 #23498] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:09.790213 #23498] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Kleinmouth')
+D, [2014-11-26T18:03:09.827632 #23498] DEBUG -- :   [1m[36m (36.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:09.829480 #23498] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:03:09.831674 #23498] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Kleinmouth')[0m
+D, [2014-11-26T18:03:09.869435 #23498] DEBUG -- :   [1m[35m (37.0ms)[0m  COMMIT
+D, [2014-11-26T18:03:09.928040 #23498] DEBUG -- :   [1m[36mSQL (41.7ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:03:09.943420 #23498] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:03:09.946712 #23498] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')[0m
+D, [2014-11-26T18:03:09.986352 #23498] DEBUG -- :   [1m[35m (38.8ms)[0m  COMMIT
+D, [2014-11-26T18:03:09.998073 #23498] DEBUG -- :   [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM `sensors`[0m
+D, [2014-11-26T18:03:10.002455 #23498] DEBUG -- :   [1m[35mSensor Load (0.7ms)[0m  SELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T18:03:10.044916 #23498] DEBUG -- :   [1m[36mSQL (39.7ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:03:10.050127 #23498] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:03:10.052914 #23498] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Kleinmouth')[0m
+D, [2014-11-26T18:03:10.094979 #23498] DEBUG -- :   [1m[35m (41.2ms)[0m  COMMIT
+D, [2014-11-26T18:03:10.103617 #23498] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 71  ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T18:03:10.145108 #23498] DEBUG -- :   [1m[35mSQL (38.3ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:03:10.150871 #23498] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:10.153723 #23498] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Kleinmouth')
+D, [2014-11-26T18:03:10.195137 #23498] DEBUG -- :   [1m[36m (40.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:10.201833 #23498] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 72 LIMIT 1
+D, [2014-11-26T18:03:10.203339 #23498] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:10.207987 #23498] DEBUG -- :   [1m[35mSQL (0.8ms)[0m  UPDATE `sensors` SET `name` = 'New_name' WHERE `sensors`.`id` = 72
+D, [2014-11-26T18:03:10.245301 #23498] DEBUG -- :   [1m[36m (36.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:10.250729 #23498] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 72 LIMIT 1
+D, [2014-11-26T18:03:10.295445 #23498] DEBUG -- :   [1m[36mSQL (40.2ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:03:10.300724 #23498] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:03:10.303286 #23498] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Kleinmouth')[0m
+D, [2014-11-26T18:03:10.345583 #23498] DEBUG -- :   [1m[35m (41.5ms)[0m  COMMIT
+D, [2014-11-26T18:03:10.351584 #23498] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 73 LIMIT 1[0m
+D, [2014-11-26T18:03:10.352946 #23498] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:03:10.355113 #23498] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 73[0m
+D, [2014-11-26T18:03:10.395637 #23498] DEBUG -- :   [1m[35m (40.0ms)[0m  COMMIT
+D, [2014-11-26T18:03:10.401329 #23498] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `sensors`[0m
+D, [2014-11-26T18:03:22.336919 #23518] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:22.340445 #23518] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Rosannaberg')
+D, [2014-11-26T18:03:22.419683 #23518] DEBUG -- :   [1m[36m (78.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:22.461357 #23518] DEBUG -- :   [1m[35mSQL (39.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:03:22.538462 #23518] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T18:03:22.543718 #23518] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:03:22.552809 #23518] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:22.554213 #23518] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Rosannaberg')
+D, [2014-11-26T18:03:22.594695 #23518] DEBUG -- :   [1m[36m (40.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:22.595660 #23518] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T18:03:22.597072 #23518] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Rosannaberg')[0m
+D, [2014-11-26T18:03:22.636424 #23518] DEBUG -- :   [1m[35m (39.0ms)[0m  COMMIT
+D, [2014-11-26T18:03:22.637585 #23518] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:22.639679 #23518] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Rosannaberg')
+D, [2014-11-26T18:03:22.678481 #23518] DEBUG -- :   [1m[36m (37.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:22.683467 #23518] DEBUG -- :   [1m[35mSensor Load (1.0ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T18:03:22.690272 #23518] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T18:03:22.736868 #23518] DEBUG -- :   [1m[35mSQL (43.6ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:03:22.749967 #23518] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:22.751260 #23518] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T18:03:22.795354 #23518] DEBUG -- :   [1m[36m (43.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:22.801314 #23518] DEBUG -- :   [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:03:22.807335 #23518] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T18:03:22.853805 #23518] DEBUG -- :   [1m[35mSQL (43.8ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:03:22.859377 #23518] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:22.862106 #23518] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Rosannaberg')
+D, [2014-11-26T18:03:22.903774 #23518] DEBUG -- :   [1m[36m (40.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:22.909784 #23518] DEBUG -- :   [1m[35mSensor Load (0.7ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 79  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T18:03:22.954258 #23518] DEBUG -- :   [1m[36mSQL (40.9ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:03:22.959854 #23518] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T18:03:22.962746 #23518] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Rosannaberg')[0m
+D, [2014-11-26T18:03:22.995885 #23518] DEBUG -- :   [1m[35m (32.3ms)[0m  COMMIT
+D, [2014-11-26T18:03:23.002657 #23518] DEBUG -- :   [1m[36mSensor Load (1.1ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 80 LIMIT 1[0m
+D, [2014-11-26T18:03:23.004458 #23518] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:03:23.008712 #23518] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1mUPDATE `sensors` SET `name` = 'New_name' WHERE `sensors`.`id` = 80[0m
+D, [2014-11-26T18:03:23.037684 #23518] DEBUG -- :   [1m[35m (28.4ms)[0m  COMMIT
+D, [2014-11-26T18:03:23.042908 #23518] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 80 LIMIT 1[0m
+D, [2014-11-26T18:03:23.104473 #23518] DEBUG -- :   [1m[35mSQL (57.0ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:03:23.109559 #23518] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:23.112055 #23518] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Rosannaberg')
+D, [2014-11-26T18:03:23.154568 #23518] DEBUG -- :   [1m[36m (41.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:23.160503 #23518] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 81 LIMIT 1
+D, [2014-11-26T18:03:23.161696 #23518] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:03:23.163677 #23518] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 81
+D, [2014-11-26T18:03:23.204736 #23518] DEBUG -- :   [1m[36m (40.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:03:23.210005 #23518] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:12:05.116975 #24442] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:12:05.120589 #24442] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Lake Aliciafurt')
+D, [2014-11-26T18:12:05.207937 #24442] DEBUG -- :   [1m[36m (86.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:12:05.266360 #24442] DEBUG -- :   [1m[35mSQL (56.4ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:12:05.342791 #24442] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T18:12:05.348175 #24442] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:12:05.350144 #24442] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:12:05.351462 #24442] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Lake Aliciafurt')
+D, [2014-11-26T18:12:05.408128 #24442] DEBUG -- :   [1m[36m (56.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:12:05.410673 #24442] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:12:05.412840 #24442] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Lake Aliciafurt')[0m
+D, [2014-11-26T18:12:05.466610 #24442] DEBUG -- :   [1m[35m (53.0ms)[0m  COMMIT
+D, [2014-11-26T18:12:05.468607 #24442] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:12:05.470776 #24442] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Lake Aliciafurt')
+D, [2014-11-26T18:12:05.525050 #24442] DEBUG -- :   [1m[36m (53.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:12:05.529819 #24442] DEBUG -- :   [1m[35mSensor Load (1.0ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T18:12:05.538599 #24442] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T18:12:05.625206 #24442] DEBUG -- :   [1m[35mSQL (78.8ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:12:05.638163 #24442] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:12:05.641134 #24442] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T18:12:05.700412 #24442] DEBUG -- :   [1m[36m (58.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:12:05.706629 #24442] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:12:05.711427 #24442] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T18:12:05.766946 #24442] DEBUG -- :   [1m[35mSQL (54.3ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:12:05.770333 #24442] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:12:05.773005 #24442] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Lake Aliciafurt')
+D, [2014-11-26T18:12:05.834152 #24442] DEBUG -- :   [1m[36m (60.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:12:05.842918 #24442] DEBUG -- :   [1m[35mSensor Load (0.7ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 87  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T18:12:05.884014 #24442] DEBUG -- :   [1m[36mSQL (38.2ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:12:05.889662 #24442] DEBUG -- :   [1m[35m (0.5ms)[0m  BEGIN
+D, [2014-11-26T18:12:05.892219 #24442] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Lake Aliciafurt')[0m
+D, [2014-11-26T18:12:05.934146 #24442] DEBUG -- :   [1m[35m (41.0ms)[0m  COMMIT
+D, [2014-11-26T18:12:05.940381 #24442] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 88 LIMIT 1[0m
+D, [2014-11-26T18:12:05.941833 #24442] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T18:12:05.946480 #24442] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1mUPDATE `sensors` SET `featured` = 0, `name` = 'New_name' WHERE `sensors`.`id` = 88[0m
+D, [2014-11-26T18:12:05.984224 #24442] DEBUG -- :   [1m[35m (37.1ms)[0m  COMMIT
+D, [2014-11-26T18:12:05.989472 #24442] DEBUG -- :   [1m[36mSensor Load (1.0ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 88 LIMIT 1[0m
+D, [2014-11-26T18:12:06.034401 #24442] DEBUG -- :   [1m[35mSQL (40.6ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:12:06.039536 #24442] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:12:06.042185 #24442] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Lake Aliciafurt')
+D, [2014-11-26T18:12:06.084702 #24442] DEBUG -- :   [1m[36m (41.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:12:06.090465 #24442] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 89 LIMIT 1
+D, [2014-11-26T18:12:06.091659 #24442] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:12:06.172554 #24442] DEBUG -- :   [1m[35mSQL (79.6ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 89
+D, [2014-11-26T18:12:06.226418 #24442] DEBUG -- :   [1m[36m (53.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:12:06.231707 #24442] DEBUG -- :   [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:12:08.959666 #24469] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:12:08.963157 #24469] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Gregorioberg')
+D, [2014-11-26T18:12:09.027375 #24469] DEBUG -- :   [1m[36m (63.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:14:14.787515 #24768] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:14:14.791883 #24768] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Isabellaton')
+D, [2014-11-26T18:14:14.864857 #24768] DEBUG -- :   [1m[36m (72.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:14:14.923335 #24768] DEBUG -- :   [1m[35mSQL (57.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:14:14.990079 #24768] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T18:14:14.994665 #24768] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:14:14.996557 #24768] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:14:14.997833 #24768] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Isabellaton')
+D, [2014-11-26T18:14:15.056906 #24768] DEBUG -- :   [1m[36m (58.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:14:15.058743 #24768] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:14:15.060872 #24768] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Isabellaton')[0m
+D, [2014-11-26T18:14:15.115432 #24768] DEBUG -- :   [1m[35m (53.8ms)[0m  COMMIT
+D, [2014-11-26T18:14:15.117271 #24768] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:14:15.119426 #24768] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Isabellaton')
+D, [2014-11-26T18:14:15.173906 #24768] DEBUG -- :   [1m[36m (53.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:14:15.178271 #24768] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T18:14:15.186399 #24768] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T18:14:15.232406 #24768] DEBUG -- :   [1m[35mSQL (38.4ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:14:15.246768 #24768] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:14:15.249361 #24768] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T18:14:15.290798 #24768] DEBUG -- :   [1m[36m (40.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:14:15.296505 #24768] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:14:15.303266 #24768] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T18:14:15.349274 #24768] DEBUG -- :   [1m[35mSQL (43.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:14:15.354161 #24768] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:14:15.356645 #24768] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Isabellaton')
+D, [2014-11-26T18:14:15.399389 #24768] DEBUG -- :   [1m[36m (42.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:14:15.411570 #24768] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 96  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T18:14:15.457861 #24768] DEBUG -- :   [1m[36mSQL (40.3ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:14:15.462917 #24768] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:14:15.465154 #24768] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Isabellaton')[0m
+D, [2014-11-26T18:14:15.507946 #24768] DEBUG -- :   [1m[35m (42.3ms)[0m  COMMIT
+D, [2014-11-26T18:14:15.514129 #24768] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 97 LIMIT 1[0m
+D, [2014-11-26T18:14:15.515557 #24768] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T18:14:15.520095 #24768] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mUPDATE `sensors` SET `featured` = 0, `name` = 'New_name' WHERE `sensors`.`id` = 97[0m
+D, [2014-11-26T18:14:15.558115 #24768] DEBUG -- :   [1m[35m (37.4ms)[0m  COMMIT
+D, [2014-11-26T18:14:15.563122 #24768] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 97 LIMIT 1[0m
+D, [2014-11-26T18:14:15.608279 #24768] DEBUG -- :   [1m[35mSQL (40.8ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:14:15.613119 #24768] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:14:15.615499 #24768] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'Isabellaton')
+D, [2014-11-26T18:14:15.658349 #24768] DEBUG -- :   [1m[36m (42.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:14:15.663768 #24768] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 98 LIMIT 1
+D, [2014-11-26T18:14:15.664919 #24768] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:14:15.666826 #24768] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 98
+D, [2014-11-26T18:14:15.708648 #24768] DEBUG -- :   [1m[36m (41.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:14:15.713466 #24768] DEBUG -- :   [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:15:39.006254 #25123] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:39.010521 #25123] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Hayesside')
+D, [2014-11-26T18:15:39.095796 #25123] DEBUG -- :   [1m[36m (84.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:39.137602 #25123] DEBUG -- :   [1m[35mSQL (39.7ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:15:39.215508 #25123] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T18:15:39.220703 #25123] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:15:39.228511 #25123] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:39.229856 #25123] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Hayesside')
+D, [2014-11-26T18:15:39.270963 #25123] DEBUG -- :   [1m[36m (40.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:39.272751 #25123] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T18:15:39.274088 #25123] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Hayesside')[0m
+D, [2014-11-26T18:15:39.312787 #25123] DEBUG -- :   [1m[35m (38.2ms)[0m  COMMIT
+D, [2014-11-26T18:15:39.314647 #25123] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:39.316762 #25123] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Hayesside')
+D, [2014-11-26T18:15:39.354602 #25123] DEBUG -- :   [1m[36m (37.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:39.359696 #25123] DEBUG -- :   [1m[35mSensor Load (1.0ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T18:15:39.368842 #25123] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T18:15:39.421408 #25123] DEBUG -- :   [1m[35mSQL (44.6ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:15:39.436656 #25123] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:39.439312 #25123] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T18:15:39.479931 #25123] DEBUG -- :   [1m[36m (39.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:39.486058 #25123] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:15:39.492265 #25123] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T18:15:39.546638 #25123] DEBUG -- :   [1m[35mSQL (51.7ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:15:39.552068 #25123] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:39.575870 #25123] DEBUG -- :   [1m[35mSQL (21.9ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Hayesside')
+D, [2014-11-26T18:15:39.613565 #25123] DEBUG -- :   [1m[36m (36.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:39.623221 #25123] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 104  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T18:15:39.671883 #25123] DEBUG -- :   [1m[36mSQL (41.1ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:15:39.677264 #25123] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:15:39.679861 #25123] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Hayesside')[0m
+D, [2014-11-26T18:15:39.722045 #25123] DEBUG -- :   [1m[35m (41.3ms)[0m  COMMIT
+D, [2014-11-26T18:15:39.728713 #25123] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 105 LIMIT 1[0m
+D, [2014-11-26T18:15:39.730167 #25123] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T18:15:39.734506 #25123] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1mUPDATE `sensors` SET `name` = 'New_name' WHERE `sensors`.`id` = 105[0m
+D, [2014-11-26T18:15:39.772225 #25123] DEBUG -- :   [1m[35m (37.1ms)[0m  COMMIT
+D, [2014-11-26T18:15:39.777695 #25123] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 105 LIMIT 1[0m
+D, [2014-11-26T18:15:39.823449 #25123] DEBUG -- :   [1m[35mSQL (41.2ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:15:39.828523 #25123] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:39.831098 #25123] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Hayesside')
+D, [2014-11-26T18:15:39.873573 #25123] DEBUG -- :   [1m[36m (41.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:39.879467 #25123] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 106 LIMIT 1
+D, [2014-11-26T18:15:39.880780 #25123] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:39.882724 #25123] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 106
+D, [2014-11-26T18:15:39.923704 #25123] DEBUG -- :   [1m[36m (40.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:39.928836 #25123] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:15:48.392487 #25139] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:48.396940 #25139] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Myraborough')
+D, [2014-11-26T18:15:48.466894 #25139] DEBUG -- :   [1m[36m (69.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:48.508774 #25139] DEBUG -- :   [1m[35mSQL (39.7ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:15:48.588128 #25139] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T18:15:48.598986 #25139] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:15:48.616458 #25139] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:48.619078 #25139] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Myraborough')
+D, [2014-11-26T18:15:48.658839 #25139] DEBUG -- :   [1m[36m (39.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:48.661129 #25139] DEBUG -- :   [1m[35m (0.5ms)[0m  BEGIN
+D, [2014-11-26T18:15:48.663520 #25139] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Myraborough')[0m
+D, [2014-11-26T18:15:48.700648 #25139] DEBUG -- :   [1m[35m (36.4ms)[0m  COMMIT
+D, [2014-11-26T18:15:48.702472 #25139] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:48.704851 #25139] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Myraborough')
+D, [2014-11-26T18:15:48.742403 #25139] DEBUG -- :   [1m[36m (36.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:48.747268 #25139] DEBUG -- :   [1m[35mSensor Load (1.0ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T18:15:48.756037 #25139] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T18:15:48.825860 #25139] DEBUG -- :   [1m[35mSQL (61.7ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:15:48.838449 #25139] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:48.839762 #25139] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T18:15:48.884207 #25139] DEBUG -- :   [1m[36m (44.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:48.890168 #25139] DEBUG -- :   [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:15:48.897077 #25139] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T18:15:48.934224 #25139] DEBUG -- :   [1m[35mSQL (36.0ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:15:48.936327 #25139] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:48.938893 #25139] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Myraborough')
+D, [2014-11-26T18:15:48.976217 #25139] DEBUG -- :   [1m[36m (36.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:48.989295 #25139] DEBUG -- :   [1m[35mSensor Load (0.6ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 112  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T18:15:49.034440 #25139] DEBUG -- :   [1m[36mSQL (40.1ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:15:49.036335 #25139] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-26T18:15:49.120618 #25139] DEBUG -- :   [1m[36mSQL (83.3ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Myraborough')[0m
+D, [2014-11-26T18:15:49.235032 #25139] DEBUG -- :   [1m[35m (113.2ms)[0m  COMMIT
+D, [2014-11-26T18:15:49.242688 #25139] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 113 LIMIT 1[0m
+D, [2014-11-26T18:15:49.244143 #25139] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-26T18:15:49.318971 #25139] DEBUG -- :   [1m[36mSQL (71.0ms)[0m  [1mUPDATE `sensors` SET `featured` = 0, `name` = 'New_name' WHERE `sensors`.`id` = 113[0m
+D, [2014-11-26T18:15:49.393546 #25139] DEBUG -- :   [1m[35m (74.0ms)[0m  COMMIT
+D, [2014-11-26T18:15:49.395892 #25139] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 113 LIMIT 1[0m
+D, [2014-11-26T18:15:49.477325 #25139] DEBUG -- :   [1m[35mSQL (79.2ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:15:49.482391 #25139] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:49.484963 #25139] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'North Myraborough')
+D, [2014-11-26T18:15:49.527448 #25139] DEBUG -- :   [1m[36m (41.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:49.533372 #25139] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 114 LIMIT 1
+D, [2014-11-26T18:15:49.534770 #25139] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:15:49.536897 #25139] DEBUG -- :   [1m[35mSQL (0.8ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 114
+D, [2014-11-26T18:15:49.577574 #25139] DEBUG -- :   [1m[36m (40.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:15:49.582891 #25139] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:18:06.498885 #25403] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:18:06.535078 #25403] DEBUG -- :   [1m[35mSQL (27.1ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'West Reginald')
+D, [2014-11-26T18:18:06.620774 #25403] DEBUG -- :   [1m[36m (84.7ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:18:06.703999 #25403] DEBUG -- :   [1m[35mSQL (81.2ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:18:06.801084 #25403] DEBUG -- :   [1m[36mSensor Load (20.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-26T18:18:06.820901 #25403] DEBUG -- :   [1m[35mSQL (14.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:18:06.832384 #25403] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:18:06.833885 #25403] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'West Reginald')
+D, [2014-11-26T18:18:06.895684 #25403] DEBUG -- :   [1m[36m (61.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:18:06.897078 #25403] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:18:06.899639 #25403] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'West Reginald')[0m
+D, [2014-11-26T18:18:06.954150 #25403] DEBUG -- :   [1m[35m (53.9ms)[0m  COMMIT
+D, [2014-11-26T18:18:06.955094 #25403] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:18:06.956308 #25403] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'West Reginald')
+D, [2014-11-26T18:18:07.012826 #25403] DEBUG -- :   [1m[36m (55.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:18:07.021434 #25403] DEBUG -- :   [1m[35mSensor Load (2.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-26T18:18:07.029293 #25403] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-26T18:18:07.096220 #25403] DEBUG -- :   [1m[35mSQL (63.9ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:18:07.104484 #25403] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:18:07.105979 #25403] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-26T18:18:07.146469 #25403] DEBUG -- :   [1m[36m (40.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:18:07.153954 #25403] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:18:07.160473 #25403] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-26T18:18:07.238271 #25403] DEBUG -- :   [1m[35mSQL (75.9ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:18:07.243889 #25403] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:18:07.270765 #25403] DEBUG -- :   [1m[35mSQL (24.8ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'West Reginald')
+D, [2014-11-26T18:18:07.330075 #25403] DEBUG -- :   [1m[36m (58.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:18:07.342580 #25403] DEBUG -- :   [1m[35mSensor Load (1.3ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 120  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-26T18:18:07.413432 #25403] DEBUG -- :   [1m[36mSQL (67.7ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-26T18:18:07.419063 #25403] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-26T18:18:07.421813 #25403] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'West Reginald')[0m
+D, [2014-11-26T18:18:07.463596 #25403] DEBUG -- :   [1m[35m (40.9ms)[0m  COMMIT
+D, [2014-11-26T18:18:07.487682 #25403] DEBUG -- :   [1m[36mSensor Load (18.1ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 121 LIMIT 1[0m
+D, [2014-11-26T18:18:07.489907 #25403] DEBUG -- :   [1m[35m (0.6ms)[0m  BEGIN
+D, [2014-11-26T18:18:07.503754 #25403] DEBUG -- :   [1m[36mSQL (9.8ms)[0m  [1mUPDATE `sensors` SET `featured` = 0, `name` = 'New_name' WHERE `sensors`.`id` = 121[0m
+D, [2014-11-26T18:18:07.547038 #25403] DEBUG -- :   [1m[35m (42.7ms)[0m  COMMIT
+D, [2014-11-26T18:18:07.573643 #25403] DEBUG -- :   [1m[36mSensor Load (21.7ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 121 LIMIT 1[0m
+D, [2014-11-26T18:18:07.622218 #25403] DEBUG -- :   [1m[35mSQL (43.8ms)[0m  DELETE FROM `sensors`
+D, [2014-11-26T18:18:07.627809 #25403] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:18:07.629566 #25403] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'West Reginald')
+D, [2014-11-26T18:18:07.672295 #25403] DEBUG -- :   [1m[36m (42.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:18:07.697512 #25403] DEBUG -- :   [1m[35mSensor Load (20.7ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 122 LIMIT 1
+D, [2014-11-26T18:18:07.698079 #25403] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-26T18:18:07.722011 #25403] DEBUG -- :   [1m[35mSQL (23.3ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 122
+D, [2014-11-26T18:18:07.772104 #25403] DEBUG -- :   [1m[36m (49.8ms)[0m  [1mCOMMIT[0m
+D, [2014-11-26T18:18:07.774324 #25403] DEBUG -- :   [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-26T18:18:51.483100 #25424] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T10:54:38.075048 #16249] DEBUG -- :   [1m[36mSensor Load (229.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T10:54:39.529911 #16249] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-27T10:54:39.551855 #16249] DEBUG -- :   [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T10:54:39.601644 #16249] DEBUG -- :   [1m[35m (49.1ms)[0m  COMMIT
+D, [2014-11-27T10:54:39.643008 #16249] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T10:54:40.313775 #16249] DEBUG -- :   [1m[35mSensor Load (10.2ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 1 LIMIT 1
+D, [2014-11-27T10:54:40.314333 #16249] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T10:54:40.321715 #16249] DEBUG -- :   [1m[35mSQL (1.6ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 1
+D, [2014-11-27T10:54:40.377319 #16249] DEBUG -- :   [1m[36m (55.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T10:54:41.119713 #16249] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T10:56:55.045050 #16637] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T10:56:56.353957 #16637] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T10:56:56.357973 #16637] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T10:56:56.424152 #16637] DEBUG -- :   [1m[35m (65.7ms)[0m  COMMIT
+D, [2014-11-27T10:56:56.466559 #16637] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T10:56:57.226494 #16637] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 2 LIMIT 1
+D, [2014-11-27T10:56:57.227560 #16637] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T10:56:57.228840 #16637] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 2
+D, [2014-11-27T10:56:57.291441 #16637] DEBUG -- :   [1m[36m (62.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T10:56:58.051396 #16637] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T10:57:32.716056 #16637] DEBUG -- :   [1m[36mSensor Load (0.1ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T10:57:34.029475 #16637] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T10:57:34.030542 #16637] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T10:57:34.089404 #16637] DEBUG -- :   [1m[35m (58.6ms)[0m  COMMIT
+D, [2014-11-27T10:57:34.137128 #16637] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T10:57:34.794045 #16637] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 3 LIMIT 1
+D, [2014-11-27T10:57:34.794751 #16637] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T10:57:34.796334 #16637] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 3
+D, [2014-11-27T10:57:34.857709 #16637] DEBUG -- :   [1m[36m (61.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T10:57:35.621709 #16637] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:12:14.738636 #16637] DEBUG -- :   [1m[36mSensor Load (0.1ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:12:16.213792 #16637] DEBUG -- :   [1m[35m (5.4ms)[0m  BEGIN
+D, [2014-11-27T11:12:16.219347 #16637] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:12:16.361382 #16637] DEBUG -- :   [1m[35m (141.6ms)[0m  COMMIT
+D, [2014-11-27T11:12:16.402613 #16637] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:12:17.037724 #16637] DEBUG -- :   [1m[35mSensor Load (1.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 4 LIMIT 1
+D, [2014-11-27T11:12:17.038549 #16637] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T11:12:17.039643 #16637] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 4
+D, [2014-11-27T11:12:17.104660 #16637] DEBUG -- :   [1m[36m (63.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T11:12:17.940864 #16637] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:22:41.920518 #19515] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:22:43.407064 #19515] DEBUG -- :   [1m[35m (3.3ms)[0m  BEGIN
+D, [2014-11-27T11:22:43.411969 #19515] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:22:43.480701 #19515] DEBUG -- :   [1m[35m (68.2ms)[0m  COMMIT
+D, [2014-11-27T11:22:43.556539 #19515] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:22:44.092645 #19515] DEBUG -- :   [1m[35mSensor Load (1.0ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 5 LIMIT 1
+D, [2014-11-27T11:22:44.096592 #19515] DEBUG -- :   [1m[36m (3.6ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T11:22:44.097810 #19515] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 5
+D, [2014-11-27T11:22:44.172710 #19515] DEBUG -- :   [1m[36m (74.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T11:22:45.080861 #19515] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:23:53.132423 #19820] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:23:54.407550 #19820] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T11:23:54.411102 #19820] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:23:54.468643 #19820] DEBUG -- :   [1m[35m (57.0ms)[0m  COMMIT
+D, [2014-11-27T11:23:54.501192 #19820] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:23:55.208485 #19820] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 6 LIMIT 1
+D, [2014-11-27T11:23:55.209342 #19820] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T11:23:55.210440 #19820] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 6
+D, [2014-11-27T11:23:55.269070 #19820] DEBUG -- :   [1m[36m (58.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T11:23:55.955820 #19820] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:24:48.739431 #20126] DEBUG -- :   [1m[36mSensor Load (0.2ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:24:50.029733 #20126] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-27T11:24:50.032981 #20126] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:24:50.092640 #20126] DEBUG -- :   [1m[35m (59.2ms)[0m  COMMIT
+D, [2014-11-27T11:24:50.130572 #20126] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:24:50.860521 #20126] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:24:57.294747 #20126] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 7 LIMIT 1[0m
+D, [2014-11-27T11:24:57.304588 #20126] DEBUG -- :   [1m[35m (9.5ms)[0m  BEGIN
+D, [2014-11-27T11:24:57.305551 #20126] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 7[0m
+D, [2014-11-27T11:24:57.370267 #20126] DEBUG -- :   [1m[35m (64.4ms)[0m  COMMIT
+D, [2014-11-27T11:31:27.253021 #21042] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:31:28.605678 #21042] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-27T11:31:28.609066 #21042] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:31:28.671806 #21042] DEBUG -- :   [1m[35m (62.2ms)[0m  COMMIT
+D, [2014-11-27T11:31:28.712968 #21042] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:31:29.498500 #21042] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:31:46.106594 #21042] DEBUG -- :   [1m[36mSensor Load (2.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 8 LIMIT 1[0m
+D, [2014-11-27T11:31:46.107434 #21042] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T11:31:46.109273 #21042] DEBUG -- :   [1m[36mSQL (0.9ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 8[0m
+D, [2014-11-27T11:31:46.247184 #21042] DEBUG -- :   [1m[35m (137.4ms)[0m  COMMIT
+D, [2014-11-27T11:33:58.941092 #21402] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:34:00.255703 #21402] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-27T11:34:00.286041 #21402] DEBUG -- :   [1m[36mSQL (27.4ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:34:00.354460 #21402] DEBUG -- :   [1m[35m (67.7ms)[0m  COMMIT
+D, [2014-11-27T11:34:00.395040 #21402] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:34:01.095388 #21402] DEBUG -- :   [1m[35mSensor Load (0.7ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:34:17.603324 #21402] DEBUG -- :   [1m[36mSensor Load (1.1ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 9 LIMIT 1[0m
+D, [2014-11-27T11:34:17.604193 #21402] DEBUG -- :   [1m[35m (0.5ms)[0m  BEGIN
+D, [2014-11-27T11:34:17.605323 #21402] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 9[0m
+D, [2014-11-27T11:34:17.673889 #21402] DEBUG -- :   [1m[35m (68.2ms)[0m  COMMIT
+D, [2014-11-27T11:34:42.493489 #21727] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:34:43.890911 #21727] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T11:34:43.894182 #21727] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:34:43.949998 #21727] DEBUG -- :   [1m[35m (55.3ms)[0m  COMMIT
+D, [2014-11-27T11:34:43.984212 #21727] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:34:44.777916 #21727] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:35:01.196734 #21727] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 10 LIMIT 1[0m
+D, [2014-11-27T11:35:01.197258 #21727] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-27T11:35:01.199202 #21727] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 10[0m
+D, [2014-11-27T11:35:01.257273 #21727] DEBUG -- :   [1m[35m (57.7ms)[0m  COMMIT
+D, [2014-11-27T11:35:34.178798 #22031] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:35:35.477389 #22031] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-27T11:35:35.480563 #22031] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:35:35.537641 #22031] DEBUG -- :   [1m[35m (56.5ms)[0m  COMMIT
+D, [2014-11-27T11:35:35.579729 #22031] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:35:36.236717 #22031] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:35:52.651565 #22031] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 11 LIMIT 1[0m
+D, [2014-11-27T11:35:52.652463 #22031] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-27T11:35:52.654072 #22031] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 11[0m
+D, [2014-11-27T11:35:52.712288 #22031] DEBUG -- :   [1m[35m (57.7ms)[0m  COMMIT
+D, [2014-11-27T11:36:59.357959 #22334] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:37:00.594773 #22334] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T11:37:00.597741 #22334] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:37:00.655207 #22334] DEBUG -- :   [1m[35m (57.0ms)[0m  COMMIT
+D, [2014-11-27T11:37:00.693974 #22334] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:37:01.649562 #22334] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:37:18.017117 #22334] DEBUG -- :   [1m[36mSensor Load (0.3ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 12 LIMIT 1[0m
+D, [2014-11-27T11:37:18.017734 #22334] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-27T11:37:18.018719 #22334] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 12[0m
+D, [2014-11-27T11:37:18.074660 #22334] DEBUG -- :   [1m[35m (55.5ms)[0m  COMMIT
+D, [2014-11-27T11:37:51.568877 #22647] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:37:52.862708 #22647] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T11:37:52.867550 #22647] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:37:52.925726 #22647] DEBUG -- :   [1m[35m (57.2ms)[0m  COMMIT
+D, [2014-11-27T11:37:52.955385 #22647] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:37:53.618048 #22647] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:38:10.055457 #22647] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 13 LIMIT 1[0m
+D, [2014-11-27T11:38:10.056540 #22647] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T11:38:10.057882 #22647] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 13[0m
+D, [2014-11-27T11:38:10.114728 #22647] DEBUG -- :   [1m[35m (56.3ms)[0m  COMMIT
+D, [2014-11-27T11:42:58.973111 #23649] DEBUG -- :   [1m[36mSensor Load (1.0ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:43:00.271154 #23649] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T11:43:00.274143 #23649] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:43:00.329131 #23649] DEBUG -- :   [1m[35m (54.5ms)[0m  COMMIT
+D, [2014-11-27T11:43:00.378041 #23649] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:43:01.108902 #23649] DEBUG -- :   [1m[35mSensor Load (7.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:43:17.376718 #23649] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 14 LIMIT 1[0m
+D, [2014-11-27T11:43:17.377452 #23649] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-27T11:43:17.378561 #23649] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 14[0m
+D, [2014-11-27T11:43:17.439761 #23649] DEBUG -- :   [1m[35m (60.8ms)[0m  COMMIT
+D, [2014-11-27T11:43:52.079776 #23984] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:43:53.417345 #23984] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T11:43:53.421401 #23984] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:43:53.478675 #23984] DEBUG -- :   [1m[35m (56.6ms)[0m  COMMIT
+D, [2014-11-27T11:43:53.518018 #23984] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:43:54.287941 #23984] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:44:10.542259 #23984] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 15 LIMIT 1[0m
+D, [2014-11-27T11:44:10.545108 #23984] DEBUG -- :   [1m[35m (1.4ms)[0m  BEGIN
+D, [2014-11-27T11:44:10.547782 #23984] DEBUG -- :   [1m[36mSQL (2.0ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 15[0m
+D, [2014-11-27T11:44:10.602629 #23984] DEBUG -- :   [1m[35m (54.5ms)[0m  COMMIT
+D, [2014-11-27T11:45:14.791176 #24351] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:45:16.112737 #24351] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-27T11:45:16.116514 #24351] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`name`) VALUES ('New Test Sensor')[0m
+D, [2014-11-27T11:45:16.188694 #24351] DEBUG -- :   [1m[35m (71.7ms)[0m  COMMIT
+D, [2014-11-27T11:45:16.228200 #24351] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:45:17.040613 #24351] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:45:33.501058 #24351] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 16 LIMIT 1[0m
+D, [2014-11-27T11:45:33.501865 #24351] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-27T11:45:33.502862 #24351] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 16[0m
+D, [2014-11-27T11:45:33.563613 #24351] DEBUG -- :   [1m[35m (60.4ms)[0m  COMMIT
+D, [2014-11-27T11:45:44.829079 #24609] DEBUG -- :   [1m[36mSensor Load (0.9ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:45:46.403821 #24609] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T11:45:46.425108 #24609] DEBUG -- :   [1m[36mSQL (18.5ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Test Sensor')[0m
+D, [2014-11-27T11:45:46.484753 #24609] DEBUG -- :   [1m[35m (58.7ms)[0m  COMMIT
+D, [2014-11-27T11:45:46.527049 #24609] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:45:47.295621 #24609] DEBUG -- :   [1m[35mSensor Load (0.7ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:45:53.769748 #24609] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 17 LIMIT 1[0m
+D, [2014-11-27T11:45:53.770222 #24609] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-27T11:45:53.771194 #24609] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 17[0m
+D, [2014-11-27T11:45:53.803684 #24609] DEBUG -- :   [1m[35m (32.1ms)[0m  COMMIT
+D, [2014-11-27T11:46:26.525654 #24925] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:46:28.056711 #24925] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-27T11:46:28.060977 #24925] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Test Sensor')[0m
+D, [2014-11-27T11:46:28.129209 #24925] DEBUG -- :   [1m[35m (67.7ms)[0m  COMMIT
+D, [2014-11-27T11:46:28.162590 #24925] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:46:29.011453 #24925] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:46:35.512688 #24925] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 18 LIMIT 1[0m
+D, [2014-11-27T11:46:35.514609 #24925] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T11:46:35.516301 #24925] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 18[0m
+D, [2014-11-27T11:46:35.573009 #24925] DEBUG -- :   [1m[35m (56.2ms)[0m  COMMIT
+D, [2014-11-27T11:47:10.187462 #25216] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:47:11.849613 #25216] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T11:47:11.856024 #25216] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Test Sensor')[0m
+D, [2014-11-27T11:47:11.907056 #25216] DEBUG -- :   [1m[35m (50.3ms)[0m  COMMIT
+D, [2014-11-27T11:47:11.956697 #25216] DEBUG -- :   [1m[36mSensor Load (1.3ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T11:47:12.701714 #25216] DEBUG -- :   [1m[35mSensor Load (0.5ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T11:47:19.084863 #25216] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 19 LIMIT 1[0m
+D, [2014-11-27T11:47:19.085389 #25216] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T11:47:19.086739 #25216] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 19[0m
+D, [2014-11-27T11:47:19.132437 #25216] DEBUG -- :   [1m[35m (45.3ms)[0m  COMMIT
+D, [2014-11-27T12:00:35.133886 #26526] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T12:00:36.730357 #26526] DEBUG -- :   [1m[35m (0.1ms)[0m  BEGIN
+D, [2014-11-27T12:00:36.733282 #26526] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Test Sensor')[0m
+D, [2014-11-27T12:00:36.793008 #26526] DEBUG -- :   [1m[35m (59.3ms)[0m  COMMIT
+D, [2014-11-27T12:00:36.835463 #26526] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T12:00:37.689282 #26526] DEBUG -- :   [1m[35mSensor Load (0.3ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T12:00:44.040703 #26526] DEBUG -- :   [1m[36mSensor Load (3.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 20 LIMIT 1[0m
+D, [2014-11-27T12:00:44.041504 #26526] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T12:00:44.044183 #26526] DEBUG -- :   [1m[36mSQL (0.9ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 20[0m
+D, [2014-11-27T12:00:44.088066 #26526] DEBUG -- :   [1m[35m (42.0ms)[0m  COMMIT
+D, [2014-11-27T12:01:49.377154 #26898] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T12:01:51.039514 #26898] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T12:01:51.044022 #26898] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Test Sensor')[0m
+D, [2014-11-27T12:01:51.257794 #26898] DEBUG -- :   [1m[35m (213.0ms)[0m  COMMIT
+D, [2014-11-27T12:01:51.308251 #26898] DEBUG -- :   [1m[36mSensor Load (0.5ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T12:01:52.052040 #26898] DEBUG -- :   [1m[35mSensor Load (0.2ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T12:01:58.246437 #26898] DEBUG -- :   [1m[36mSensor Load (1.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 21 LIMIT 1[0m
+D, [2014-11-27T12:01:58.247131 #26898] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-27T12:01:58.251186 #26898] DEBUG -- :   [1m[36mSQL (3.2ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 21[0m
+D, [2014-11-27T12:01:58.304676 #26898] DEBUG -- :   [1m[35m (53.2ms)[0m  COMMIT
+D, [2014-11-27T12:54:32.537066 #31601] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:32.548907 #31601] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Jomouth')
+D, [2014-11-27T12:54:32.609091 #31601] DEBUG -- :   [1m[36m (59.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:32.709098 #31601] DEBUG -- :   [1m[35mSQL (98.0ms)[0m  DELETE FROM `sensors`
+D, [2014-11-27T12:54:32.877187 #31601] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T12:54:32.882340 #31601] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  DELETE FROM `sensors`
+D, [2014-11-27T12:54:32.884065 #31601] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:32.885231 #31601] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Jomouth')
+D, [2014-11-27T12:54:32.942271 #31601] DEBUG -- :   [1m[36m (56.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:32.943165 #31601] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T12:54:32.944304 #31601] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Jomouth')[0m
+D, [2014-11-27T12:54:32.992615 #31601] DEBUG -- :   [1m[35m (47.6ms)[0m  COMMIT
+D, [2014-11-27T12:54:32.994527 #31601] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:32.996977 #31601] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Jomouth')
+D, [2014-11-27T12:54:33.042708 #31601] DEBUG -- :   [1m[36m (45.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:33.047241 #31601] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T12:54:33.055973 #31601] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-27T12:54:33.151244 #31601] DEBUG -- :   [1m[35mSQL (87.4ms)[0m  DELETE FROM `sensors`
+D, [2014-11-27T12:54:33.180927 #31601] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:33.184208 #31601] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-27T12:54:33.243019 #31601] DEBUG -- :   [1m[36m (57.9ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:33.285384 #31601] DEBUG -- :   [1m[35m (36.9ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-27T12:54:33.291724 #31601] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-27T12:54:33.359820 #31601] DEBUG -- :   [1m[35mSQL (65.2ms)[0m  DELETE FROM `sensors`
+D, [2014-11-27T12:54:33.365165 #31601] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:33.366582 #31601] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Jomouth')
+D, [2014-11-27T12:54:33.411150 #31601] DEBUG -- :   [1m[36m (44.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:33.457472 #31601] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 27  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-27T12:54:33.510971 #31601] DEBUG -- :   [1m[36mSQL (50.1ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-27T12:54:33.514289 #31601] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-27T12:54:33.518010 #31601] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Jomouth')[0m
+D, [2014-11-27T12:54:33.561283 #31601] DEBUG -- :   [1m[35m (42.4ms)[0m  COMMIT
+D, [2014-11-27T12:54:33.567699 #31601] DEBUG -- :   [1m[36mSensor Load (0.6ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 28 LIMIT 1[0m
+D, [2014-11-27T12:54:33.569253 #31601] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-27T12:54:33.598237 #31601] DEBUG -- :   [1m[36mSQL (25.4ms)[0m  [1mUPDATE `sensors` SET `name` = 'New_name' WHERE `sensors`.`id` = 28[0m
+D, [2014-11-27T12:54:33.661522 #31601] DEBUG -- :   [1m[35m (62.6ms)[0m  COMMIT
+D, [2014-11-27T12:54:33.666859 #31601] DEBUG -- :   [1m[36mSensor Load (1.0ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 28 LIMIT 1[0m
+D, [2014-11-27T12:54:33.711632 #31601] DEBUG -- :   [1m[35mSQL (40.5ms)[0m  DELETE FROM `sensors`
+D, [2014-11-27T12:54:33.717173 #31601] DEBUG -- :   [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:33.719735 #31601] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'Jomouth')
+D, [2014-11-27T12:54:33.761744 #31601] DEBUG -- :   [1m[36m (41.1ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:33.767739 #31601] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 29 LIMIT 1
+D, [2014-11-27T12:54:33.769081 #31601] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:33.771126 #31601] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 29
+D, [2014-11-27T12:54:33.812038 #31601] DEBUG -- :   [1m[36m (40.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:33.817202 #31601] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-27T12:54:45.912630 #31617] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:45.916498 #31617] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Lunaside')
+D, [2014-11-27T12:54:45.974617 #31617] DEBUG -- :   [1m[36m (57.5ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:46.016066 #31617] DEBUG -- :   [1m[35mSQL (39.4ms)[0m  DELETE FROM `sensors`
+D, [2014-11-27T12:54:46.087486 #31617] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T12:54:46.092321 #31617] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors`
+D, [2014-11-27T12:54:46.100624 #31617] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:46.101840 #31617] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Lunaside')
+D, [2014-11-27T12:54:46.141481 #31617] DEBUG -- :   [1m[36m (39.2ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:46.142317 #31617] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T12:54:46.143535 #31617] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Lunaside')[0m
+D, [2014-11-27T12:54:46.183298 #31617] DEBUG -- :   [1m[35m (39.2ms)[0m  COMMIT
+D, [2014-11-27T12:54:46.185099 #31617] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:46.187358 #31617] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Lunaside')
+D, [2014-11-27T12:54:46.225068 #31617] DEBUG -- :   [1m[36m (37.0ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:46.230038 #31617] DEBUG -- :   [1m[35mSensor Load (1.0ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T12:54:46.239121 #31617] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT `sensors`.* FROM `sensors`[0m
+D, [2014-11-27T12:54:46.291582 #31617] DEBUG -- :   [1m[35mSQL (40.4ms)[0m  DELETE FROM `sensors`
+D, [2014-11-27T12:54:46.297690 #31617] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:46.298820 #31617] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (0, 'New Sensor')
+D, [2014-11-27T12:54:46.341967 #31617] DEBUG -- :   [1m[36m (42.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:46.347945 #31617] DEBUG -- :   [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-27T12:54:46.354256 #31617] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`   ORDER BY `sensors`.`id` ASC LIMIT 1[0m
+D, [2014-11-27T12:54:46.400222 #31617] DEBUG -- :   [1m[35mSQL (42.9ms)[0m  DELETE FROM `sensors`
+D, [2014-11-27T12:54:46.402319 #31617] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:46.404895 #31617] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Lunaside')
+D, [2014-11-27T12:54:46.442249 #31617] DEBUG -- :   [1m[36m (36.6ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:46.454878 #31617] DEBUG -- :   [1m[35mSensor Load (0.9ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 35  ORDER BY `sensors`.`id` ASC LIMIT 1
+D, [2014-11-27T12:54:46.500700 #31617] DEBUG -- :   [1m[36mSQL (36.7ms)[0m  [1mDELETE FROM `sensors`[0m
+D, [2014-11-27T12:54:46.505914 #31617] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2014-11-27T12:54:46.507215 #31617] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Lunaside')[0m
+D, [2014-11-27T12:54:46.550847 #31617] DEBUG -- :   [1m[35m (43.0ms)[0m  COMMIT
+D, [2014-11-27T12:54:46.557555 #31617] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 36 LIMIT 1[0m
+D, [2014-11-27T12:54:46.559294 #31617] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2014-11-27T12:54:46.563732 #31617] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mUPDATE `sensors` SET `featured` = 0, `name` = 'New_name' WHERE `sensors`.`id` = 36[0m
+D, [2014-11-27T12:54:46.600940 #31617] DEBUG -- :   [1m[35m (36.6ms)[0m  COMMIT
+D, [2014-11-27T12:54:46.606199 #31617] DEBUG -- :   [1m[36mSensor Load (0.8ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 36 LIMIT 1[0m
+D, [2014-11-27T12:54:46.651003 #31617] DEBUG -- :   [1m[35mSQL (40.2ms)[0m  DELETE FROM `sensors`
+D, [2014-11-27T12:54:46.656087 #31617] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:46.658903 #31617] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Lunaside')
+D, [2014-11-27T12:54:46.701176 #31617] DEBUG -- :   [1m[36m (41.4ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:46.707089 #31617] DEBUG -- :   [1m[35mSensor Load (0.8ms)[0m  SELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 37 LIMIT 1
+D, [2014-11-27T12:54:46.708274 #31617] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+D, [2014-11-27T12:54:46.710426 #31617] DEBUG -- :   [1m[35mSQL (0.7ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 37
+D, [2014-11-27T12:54:46.751308 #31617] DEBUG -- :   [1m[36m (40.3ms)[0m  [1mCOMMIT[0m
+D, [2014-11-27T12:54:46.756672 #31617] DEBUG -- :   [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `sensors`
+D, [2014-11-27T12:55:14.407626 #31635] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T12:55:15.838272 #31635] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2014-11-27T12:55:15.842299 #31635] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`featured`, `name`) VALUES (1, 'New Test Sensor')[0m
+D, [2014-11-27T12:55:15.913811 #31635] DEBUG -- :   [1m[35m (70.9ms)[0m  COMMIT
+D, [2014-11-27T12:55:15.962510 #31635] DEBUG -- :   [1m[36mSensor Load (0.7ms)[0m  [1mSELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC[0m
+D, [2014-11-27T12:55:16.725086 #31635] DEBUG -- :   [1m[35mSensor Load (0.4ms)[0m  SELECT `sensors`.* FROM `sensors`   ORDER BY `sensors`.`featured` DESC
+D, [2014-11-27T12:55:23.165701 #31635] DEBUG -- :   [1m[36mSensor Load (0.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors`  WHERE `sensors`.`id` = 38 LIMIT 1[0m
+D, [2014-11-27T12:55:23.178603 #31635] DEBUG -- :   [1m[35m (12.5ms)[0m  BEGIN
+D, [2014-11-27T12:55:23.180701 #31635] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 38[0m
+D, [2014-11-27T12:55:23.244969 #31635] DEBUG -- :   [1m[35m (63.9ms)[0m  COMMIT
